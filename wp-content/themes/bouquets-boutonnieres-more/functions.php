@@ -91,6 +91,14 @@ function bouquets_boutonnieres_more_scripts_and_styles() {
 	wp_enqueue_script( 'bouquets-boutonnieres-more-js', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), '', true );
 }
 
+// Load Font Awesome
+add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );
+function enqueue_font_awesome() {
+
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css' );
+
+}
+
 
 /*********************
 3. THEME SUPPORT

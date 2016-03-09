@@ -412,11 +412,37 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
+#social {
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+#social li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#social li a {
+    color: #000;
+    &:hover {
+        color: $dwd-gold;
+    }
+}
+
+#social li a img {
+    width: 1.2em;
+    float:bottom;
+}
+
 #colophon {
 	clear: both;
-	background-color:#111;
-	color:#999;
-	padding:1em 0;
+	padding: 0;
+}
+
+#inner-footer hr {
+    margin: 0;
 }
 
 	ul.footer-menu {
