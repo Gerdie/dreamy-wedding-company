@@ -37,15 +37,25 @@
 
 <body <?php body_class(); ?>>
 
-	<div id="container">
+	<div id="container" class="container">
+	
+		<nav id="main-navigation" class="clearfix" role="navigation">
+
+			<?php bouquets_boutonnieres_more_main_nav(); ?>
+
+		</nav>
 
 		<header id="masthead" class="header" role="banner">
 
 			<div id="inner-header" class="wrap clearfix">
 
 				<?php // to use a image just replace the bloginfo('name') with <img> ?>
-				<div id="logo" class="h1"><a href="<?php  echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div>
+				<!--<div id="logo" class="h1"><a href="<?php  echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div> -->
 
+				<div id="logo">
+				<img src="http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/png-1.png">
+				</div>
+				
 				<?php // if you'd like to use the site description you can un-comment it below
 				// echo '<p class="site-description">'. bloginfo( "description" ) .'</p>' ?>
 
@@ -55,18 +65,12 @@
 
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'test' ); ?></a>
 
-		<nav id="main-navigation" class="clearfix" role="navigation">
-
-			<?php bouquets_boutonnieres_more_main_nav(); ?>
-
-		</nav>
-
 		<?php // Interior Header Image ?>
-        <div class="banner-wrap">
+        <!--<div class="banner-wrap">
             <div id="banner">
                 <div class="spacer"></div>
             </div>
-        </div>
+        </div>-->
 
 		<div id="content">
 

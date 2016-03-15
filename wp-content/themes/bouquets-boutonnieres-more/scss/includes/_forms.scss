@@ -134,6 +134,74 @@ input[type=button] {
 	}
 }
 
+
+/************************
+ * NinjaForm Styles
+ ************************/
+ 
+
+#ninja_forms_form_1_all_fields_wrap {
+    margin: auto;
+}
+
+.ninja-forms-form-wrap {
+	width:600px;
+	margin-left:50px;
+}
+
+.ninja-forms-field {
+    background-color: #e5e5e7;
+	border: 1px solid #fff;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.ninja-forms-req-symbol {
+	color: #e2bf47 !important;
+}
+
+#ninja_forms_field_22_div_wrap {
+	background:none;
+}
+
+#ninja_forms_field_29_div_wrap {
+    margin-top: 0px;
+}
+
+#ninja_forms_field_19_div_wrap {
+    margin-bottom: 0px;
+}
+
+#ninja_forms_field_3_label {    //comments box
+    font-family: 'Parisienne', cursive;
+    font-size: 22px;
+}
+
+#ninja_forms_field_5 {  //submit button
+    font-family: $slabo;
+    background-color: $dwd-gold;
+    letter-spacing: 1px;
+    color: #FFF;
+    width: 150px;
+    padding: 10px 10px;
+    text-align: center;
+    margin: auto;
+    
+    &:hover {
+        background-color: #f47503;
+    }
+}
+
+#ninja_forms_field_1, //textboxes
+#ninja_forms_field_2,
+#ninja_forms_field_13,
+#ninja_forms_field_21,
+#ninja_forms_field_26,
+#ninja_forms_field_27,
+#ninja_forms_field_28 {
+    background-color: #e5e5e7;
+}
+
 /************************
  * SearchForm Styles
  ************************/

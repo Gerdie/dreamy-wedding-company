@@ -2113,9 +2113,84 @@ input[type=button]:first-child {
 }
 
 /************************
- * SearchForm Styles
+ * NinjaForm Styles
  ************************/
 /* line 143, ../scss/includes/_forms.scss */
+#ninja_forms_form_1_all_fields_wrap {
+  margin: auto;
+}
+
+/* line 147, ../scss/includes/_forms.scss */
+.ninja-forms-form-wrap {
+  width: 600px;
+  margin-left: 50px;
+}
+
+/* line 152, ../scss/includes/_forms.scss */
+.ninja-forms-field {
+  background-color: #e5e5e7;
+  border: 1px solid #fff;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* line 159, ../scss/includes/_forms.scss */
+.ninja-forms-req-symbol {
+  color: #e2bf47 !important;
+}
+
+/* line 163, ../scss/includes/_forms.scss */
+#ninja_forms_field_22_div_wrap {
+  background: none;
+}
+
+/* line 167, ../scss/includes/_forms.scss */
+#ninja_forms_field_29_div_wrap {
+  margin-top: 0px;
+}
+
+/* line 171, ../scss/includes/_forms.scss */
+#ninja_forms_field_19_div_wrap {
+  margin-bottom: 0px;
+}
+
+/* line 175, ../scss/includes/_forms.scss */
+#ninja_forms_field_3_label {
+  font-family: 'Parisienne', cursive;
+  font-size: 22px;
+}
+
+/* line 180, ../scss/includes/_forms.scss */
+#ninja_forms_field_5 {
+  font-family: "Slabo 27px", serif;
+  background-color: #e2bf47;
+  letter-spacing: 1px;
+  color: #FFF;
+  width: 150px;
+  padding: 10px 10px;
+  text-align: center;
+  margin: auto;
+}
+/* line 190, ../scss/includes/_forms.scss */
+#ninja_forms_field_5:hover {
+  background-color: #f47503;
+}
+
+/* line 201, ../scss/includes/_forms.scss */
+#ninja_forms_field_1,
+#ninja_forms_field_2,
+#ninja_forms_field_13,
+#ninja_forms_field_21,
+#ninja_forms_field_26,
+#ninja_forms_field_27,
+#ninja_forms_field_28 {
+  background-color: #e5e5e7;
+}
+
+/************************
+ * SearchForm Styles
+ ************************/
+/* line 211, ../scss/includes/_forms.scss */
 #searchform label {
   display: none;
   /* Style to show label in line with text field
@@ -2125,7 +2200,7 @@ input[type=button]:first-child {
   text-transform: uppercase;
   width: 20%;
 }
-/* line 154, ../scss/includes/_forms.scss */
+/* line 222, ../scss/includes/_forms.scss */
 #searchform #s {
   outline: none;
   background: #FFF;
@@ -2148,17 +2223,17 @@ input[type=button]:first-child {
   width: 75%;
   padding: 2px 1%;
 }
-/* line 165, ../scss/includes/_forms.scss */
+/* line 233, ../scss/includes/_forms.scss */
 #searchform #s:focus {
   border: 1px solid #AAA;
 }
-/* line 172, ../scss/includes/_forms.scss */
+/* line 240, ../scss/includes/_forms.scss */
 #searchform #searchsubmit {
   padding: 7px 15px;
 }
 
 /*Search Styles on 404 page*/
-/* line 180, ../scss/includes/_forms.scss */
+/* line 248, ../scss/includes/_forms.scss */
 .error404 #searchform label {
   font-weight: bold;
 }
@@ -2167,7 +2242,7 @@ input[type=button]:first-child {
  * Password Form Styles
  ************************/
 @media only screen and (min-width: 768px) {
-  /* line 199, ../scss/includes/_forms.scss */
+  /* line 267, ../scss/includes/_forms.scss */
   input[type=button],
   input[type=submit] {
     width: auto;
@@ -2185,11 +2260,11 @@ Stylesheet: Off-Canvas Navigation
 /* line 12, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu {
   clear: both;
-  background-color: #333;
   width: 70%;
   margin: 0;
   padding: 0;
   position: absolute;
+  float: right;
   right: -70%;
   top: 0;
   bottom: 0;
@@ -2198,6 +2273,7 @@ Stylesheet: Off-Canvas Navigation
 /* line 24, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li {
   display: block;
+  text-transform: lowercase;
   border-bottom: 2px solid #222;
   margin: 0;
   padding: 0;
@@ -2210,33 +2286,28 @@ Stylesheet: Off-Canvas Navigation
   /*sub menu - child*/
   /*sub menu - child*/
 }
-/* line 31, ../scss/includes/_offcanvas-nav.scss */
+/* line 32, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li a {
   display: inline-block;
-  color: #999;
+  color: #000;
+  font-family: "Slabo 27px", serif;
   font-size: 1.143em;
   text-decoration: none;
   width: 80%;
-  padding: 15px 5%;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -ms-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  -transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  margin: 15px 7px 0 7px;
+  border-bottom: 2px solid #fff;
 }
-/* line 40, ../scss/includes/_offcanvas-nav.scss */
-#main-navigation ul.menu li a:hover, #main-navigation ul.menu li a:focus {
-  background-color: #222;
-  color: #ccc;
+/* line 42, ../scss/includes/_offcanvas-nav.scss */
+#main-navigation ul.menu li a:hover {
+  border-bottom: 2px solid black;
 }
-/* line 46, ../scss/includes/_offcanvas-nav.scss */
+/* line 47, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li a.menu-button {
   display: block;
   text-align: center;
   width: 20%;
   margin: 0;
-  padding: 15px 0;
+  padding: 15px 0 0 0;
   cursor: pointer;
   height: auto;
   -webkit-transition: all 0.25s ease-in-out;
@@ -2246,7 +2317,7 @@ Stylesheet: Off-Canvas Navigation
   -transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* line 59, ../scss/includes/_offcanvas-nav.scss */
+/* line 60, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li a.menu-back-button {
   display: inline-block;
   width: 100%;
@@ -2260,14 +2331,13 @@ Stylesheet: Off-Canvas Navigation
   -transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* line 77, ../scss/includes/_offcanvas-nav.scss */
+/* line 78, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li.menu-item-no-children a {
   width: 100%;
 }
-/* line 85, ../scss/includes/_offcanvas-nav.scss */
+/* line 86, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li ul.sub-menu {
   display: block;
-  background-color: #333;
   width: 100%;
   position: absolute;
   right: -100%;
@@ -2327,8 +2397,8 @@ Here you can begin to add more resource-intensive styles.
   /****Main Navigation****/
   /* line 143, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation {
-    background-color: #333;
     white-space: nowrap;
+    margin-right: 14%;
     /* end ul.menu */
     /*menu buttons*/
   }
@@ -2338,7 +2408,7 @@ Here you can begin to add more resource-intensive styles.
     width: auto;
     position: relative;
     top: auto;
-    bottom: autp;
+    bottom: auto;
     right: auto;
     padding: 0;
     margin: 0 auto;
@@ -2360,38 +2430,37 @@ Here you can begin to add more resource-intensive styles.
   /* line 165, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a {
     display: inline-block;
-    border-left: 2px solid #222;
     width: auto;
-    padding: 10px 20px;
+    padding: 10px 20px 0 px 20px;
   }
-  /* line 173, ../scss/includes/_offcanvas-nav.scss */
+  /* line 172, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a.menu-button {
     display: none!important;
   }
-  /* line 177, ../scss/includes/_offcanvas-nav.scss */
+  /* line 176, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a.menu-back-button {
     display: none!important;
   }
-  /* line 183, ../scss/includes/_offcanvas-nav.scss */
+  /* line 182, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:first-child a {
     border-left: none;
   }
-  /* line 188, ../scss/includes/_offcanvas-nav.scss */
+  /* line 187, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child {
     /*Children*/
   }
-  /* line 192, ../scss/includes/_offcanvas-nav.scss */
+  /* line 191, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.children {
     left: auto;
     right: 0;
   }
-  /* line 196, ../scss/includes/_offcanvas-nav.scss */
+  /* line 195, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li,
   #main-navigation ul.menu li:last-child ul.children li {
     /*Grand Children*/
   }
-  /* line 200, ../scss/includes/_offcanvas-nav.scss */
+  /* line 199, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.children,
   #main-navigation ul.menu li:last-child ul.children li ul.sub-menu,
@@ -2399,15 +2468,14 @@ Here you can begin to add more resource-intensive styles.
     left: auto;
     right: 99.9%;
   }
-  /* line 212, ../scss/includes/_offcanvas-nav.scss */
+  /* line 211, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li.menu-item-no-children a {
     width: auto;
   }
-  /* line 221, ../scss/includes/_offcanvas-nav.scss */
+  /* line 220, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu,
   #main-navigation ul.menu li ul.children {
     display: none;
-    background-color: #333;
     text-align: left;
     width: auto;
     min-width: 120%;
@@ -2423,7 +2491,7 @@ Here you can begin to add more resource-intensive styles.
     -transition: top 1s;
     transition: top 1s;
   }
-  /* line 234, ../scss/includes/_offcanvas-nav.scss */
+  /* line 232, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li,
   #main-navigation ul.menu li ul.children li {
     display: block;
@@ -2431,7 +2499,7 @@ Here you can begin to add more resource-intensive styles.
     margin: 0;
     /*Grand Children*/
   }
-  /* line 239, ../scss/includes/_offcanvas-nav.scss */
+  /* line 237, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li a,
   #main-navigation ul.menu li ul.children li a {
     display: block;
@@ -2439,7 +2507,7 @@ Here you can begin to add more resource-intensive styles.
     border-left: none;
     padding: 10px;
   }
-  /* line 261, ../scss/includes/_offcanvas-nav.scss */
+  /* line 259, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li ul.sub-menu li ul.children,
   #main-navigation ul.menu li ul.children li ul.sub-menu,
@@ -2447,11 +2515,11 @@ Here you can begin to add more resource-intensive styles.
     left: 99.9%;
     top: 0;
   }
-  /* line 271, ../scss/includes/_offcanvas-nav.scss */
+  /* line 269, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:hover > ul {
     display: table;
   }
-  /* line 277, ../scss/includes/_offcanvas-nav.scss */
+  /* line 275, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation .menu-button {
     display: none;
   }
@@ -2466,26 +2534,26 @@ FULL VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 */
 @media only screen and (min-width: 1200px) {
-  /* line 296, ../scss/includes/_offcanvas-nav.scss */
+  /* line 294, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu {
     /* end .menu li */
   }
-  /* line 302, ../scss/includes/_offcanvas-nav.scss */
+  /* line 300, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child {
     /*Children*/
   }
-  /* line 306, ../scss/includes/_offcanvas-nav.scss */
+  /* line 304, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.children {
     left: 0;
     right: auto;
   }
-  /* line 310, ../scss/includes/_offcanvas-nav.scss */
+  /* line 308, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li,
   #main-navigation ul.menu li:last-child ul.children li {
     /*Grand Children*/
   }
-  /* line 314, ../scss/includes/_offcanvas-nav.scss */
+  /* line 312, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.children,
   #main-navigation ul.menu li:last-child ul.children li ul.sub-menu,
@@ -4855,22 +4923,63 @@ body #container {
   transition: all 0.25s ease-in-out;
 }
 
+/* line 46, ../scss/responsive-styles/_xs.scss */
+.dwd-who {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* line 52, ../scss/responsive-styles/_xs.scss */
+.dwd-button {
+  font-family: "Slabo 27px", serif;
+  background-color: #e2bf47;
+  letter-spacing: 1px;
+  color: #FFF;
+  width: 150px;
+  padding: 10px 10px;
+  text-align: center;
+  margin: auto;
+}
+/* line 62, ../scss/responsive-styles/_xs.scss */
+.dwd-button:hover {
+  background-color: #f47503;
+}
+
+/* line 67, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-1 {
+  font-family: "Slabo 27px", serif;
+  color: #FFF;
+  display: inline-block;
+}
+/* line 72, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-1:hover {
+  background-color: #f47503;
+  content: "boutonnieres";
+}
+
 /*********************
 HEADER SYTLES
 *********************/
 /* Ensure that there is no gap between the header and the admin bar for WordPress versions before 3.8. */
-/* line 51, ../scss/responsive-styles/_xs.scss */
+/* line 103, ../scss/responsive-styles/_xs.scss */
 #wpadminbar {
   min-height: 32px;
 }
 
-/* line 55, ../scss/responsive-styles/_xs.scss */
+/* line 106, ../scss/responsive-styles/_xs.scss */
+#logo {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 110, ../scss/responsive-styles/_xs.scss */
 #banner {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 61, ../scss/responsive-styles/_xs.scss */
+/* line 116, ../scss/responsive-styles/_xs.scss */
 #banner .spacer {
   padding-top: 26%;
 }
@@ -4882,11 +4991,11 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 75, ../scss/responsive-styles/_xs.scss */
+/* line 130, ../scss/responsive-styles/_xs.scss */
 #content {
   margin: 2em 0;
 }
-/* line 78, ../scss/responsive-styles/_xs.scss */
+/* line 133, ../scss/responsive-styles/_xs.scss */
 #content #inner-content {
   /* end .hentry */
   /* general title class */
@@ -4902,7 +5011,7 @@ POSTS & CONTENT STYLES
   /* post meta */
   /* entry content */
 }
-/* line 109, ../scss/responsive-styles/_xs.scss */
+/* line 164, ../scss/responsive-styles/_xs.scss */
 #content #inner-content .byline {
   color: #999;
   margin: -1em 0 1em;
@@ -4911,7 +5020,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVIGATION STYLES
 ******************************************************************/
-/* line 165, ../scss/responsive-styles/_xs.scss */
+/* line 220, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi {
   margin: 1em 0;
   /* current page link */
@@ -4923,12 +5032,12 @@ PAGE NAVIGATION STYLES
   /* first page link */
   /* last page link */
 }
-/* line 168, ../scss/responsive-styles/_xs.scss */
+/* line 223, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li {
   float: left;
   margin: 0;
 }
-/* line 172, ../scss/responsive-styles/_xs.scss */
+/* line 227, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a {
   display: block;
   color: #333;
@@ -4936,43 +5045,43 @@ PAGE NAVIGATION STYLES
   padding: 3px 10px;
   position: relative;
 }
-/* line 180, ../scss/responsive-styles/_xs.scss */
+/* line 235, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a:hover, .bouquets_boutonnieres_more_page_navi li a:focus {
   color: #008cba;
   text-decoration: underline;
 }
-/* line 189, ../scss/responsive-styles/_xs.scss */
+/* line 244, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current {
   background-color: #f5f5f5;
   color: #008cba;
   padding: 3px 10px;
   position: relative;
 }
-/* line 195, ../scss/responsive-styles/_xs.scss */
+/* line 250, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 198, ../scss/responsive-styles/_xs.scss */
+/* line 253, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-current a:focus {
   color: #333;
 }
-/* line 208, ../scss/responsive-styles/_xs.scss */
+/* line 263, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 211, ../scss/responsive-styles/_xs.scss */
+/* line 266, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a {
   color: #008cba;
 }
-/* line 215, ../scss/responsive-styles/_xs.scss */
+/* line 270, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:focus,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:focus {
   color: #333;
 }
-/* line 225, ../scss/responsive-styles/_xs.scss */
+/* line 280, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-first-page-link a:hover,
@@ -4982,11 +5091,11 @@ PAGE NAVIGATION STYLES
 
 /* end .bouquets_boutonnieres_more_page_navi */
 /* fallback previous & next links */
-/* line 268, ../scss/responsive-styles/_xs.scss */
+/* line 323, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 272, ../scss/responsive-styles/_xs.scss */
+/* line 327, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -5286,32 +5395,32 @@ COMMENTS STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 289, ../scss/responsive-styles/_xs.scss */
+/* line 344, ../scss/responsive-styles/_xs.scss */
 .sidebar {
   margin-top: 2em;
 }
 
-/* line 293, ../scss/responsive-styles/_xs.scss */
+/* line 348, ../scss/responsive-styles/_xs.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 298, ../scss/responsive-styles/_xs.scss */
+/* line 353, ../scss/responsive-styles/_xs.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 302, ../scss/responsive-styles/_xs.scss */
+/* line 357, ../scss/responsive-styles/_xs.scss */
 .widget.first-widget {
   margin: 0 0 2.2em;
 }
-/* line 307, ../scss/responsive-styles/_xs.scss */
+/* line 362, ../scss/responsive-styles/_xs.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 315, ../scss/responsive-styles/_xs.scss */
+/* line 370, ../scss/responsive-styles/_xs.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -5331,7 +5440,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 415, ../scss/responsive-styles/_xs.scss */
+/* line 470, ../scss/responsive-styles/_xs.scss */
 #social {
   list-style: none;
   list-style-type: none;
@@ -5339,65 +5448,65 @@ FOOTER STYLES
   text-align: center;
 }
 
-/* line 422, ../scss/responsive-styles/_xs.scss */
+/* line 477, ../scss/responsive-styles/_xs.scss */
 #social li {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 427, ../scss/responsive-styles/_xs.scss */
+/* line 482, ../scss/responsive-styles/_xs.scss */
 #social li a {
   color: #000;
 }
-/* line 429, ../scss/responsive-styles/_xs.scss */
+/* line 484, ../scss/responsive-styles/_xs.scss */
 #social li a:hover {
   color: #e2bf47;
 }
 
-/* line 434, ../scss/responsive-styles/_xs.scss */
+/* line 489, ../scss/responsive-styles/_xs.scss */
 #social li a img {
   width: 1.2em;
   float: bottom;
 }
 
-/* line 439, ../scss/responsive-styles/_xs.scss */
+/* line 494, ../scss/responsive-styles/_xs.scss */
 #colophon {
   clear: both;
   padding: 0;
 }
 
-/* line 444, ../scss/responsive-styles/_xs.scss */
+/* line 499, ../scss/responsive-styles/_xs.scss */
 #inner-footer hr {
   margin: 0;
 }
 
-/* line 448, ../scss/responsive-styles/_xs.scss */
+/* line 503, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu {
   display: inline-block;
   text-align: right;
   margin: 0;
   padding: 0;
 }
-/* line 454, ../scss/responsive-styles/_xs.scss */
+/* line 509, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li {
   display: inline-block;
   margin: 0 0 0 -4px;
   padding: 0;
 }
-/* line 459, ../scss/responsive-styles/_xs.scss */
+/* line 514, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li a {
   border-left: 1px solid #ccc;
   color: #999;
   line-height: normal;
   padding: 0 1em;
 }
-/* line 466, ../scss/responsive-styles/_xs.scss */
+/* line 521, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li:first-child a {
   border-left: none;
 }
 
 /* end .footer-menu */
-/* line 474, ../scss/responsive-styles/_xs.scss */
+/* line 529, ../scss/responsive-styles/_xs.scss */
 #back-top {
   position: fixed;
   bottom: 10px;
@@ -5405,7 +5514,7 @@ ul.footer-menu li:first-child a {
   right: 0;
   z-index: 9999;
 }
-/* line 481, ../scss/responsive-styles/_xs.scss */
+/* line 536, ../scss/responsive-styles/_xs.scss */
 #back-top a {
   width: 40px;
   display: block;
@@ -5424,12 +5533,12 @@ ul.footer-menu li:first-child a {
   -o-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 490, ../scss/responsive-styles/_xs.scss */
+/* line 545, ../scss/responsive-styles/_xs.scss */
 #back-top a:hover, #back-top a:focus {
   color: #000;
   opacity: 1;
 }
-/* line 496, ../scss/responsive-styles/_xs.scss */
+/* line 551, ../scss/responsive-styles/_xs.scss */
 #back-top i {
   width: 40px;
   height: 40px;
@@ -5509,6 +5618,27 @@ DESKTOP
   be seen on the Desktop.
   
   ******************************************************************/
+  /* line 12, ../scss/responsive-styles/_md.scss */
+  #tt-headline-2016 {
+    font-family: "Helvetica Bold";
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: initial;
+    color: #f27802;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  /* line 22, ../scss/responsive-styles/_md.scss */
+  #tt-headline-2016 img {
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+
+  /* line 27, ../scss/responsive-styles/_md.scss */
+  #logo {
+    max-width: 80%;
+  }
 }
 /*
 FULL VIEWING SIZE

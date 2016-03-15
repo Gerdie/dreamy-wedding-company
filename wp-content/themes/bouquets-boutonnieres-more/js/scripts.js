@@ -68,6 +68,7 @@ jQuery(document).ready(function($) {
 	}
 
 	//iCheck - http://fronteed.com/iCheck/
+	
 	if($.fn.iCheck) {
 		$('input').iCheck({
 			checkboxClass: 'icheckbox_square',

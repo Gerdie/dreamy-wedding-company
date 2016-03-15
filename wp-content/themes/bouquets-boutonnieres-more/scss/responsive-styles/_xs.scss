@@ -43,6 +43,58 @@ body {
     }
 }
 
+.dwd-who {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dwd-button {
+    font-family: $slabo;
+    background-color: $dwd-gold;
+    letter-spacing: 1px;
+    color: #FFF;
+    width: 150px;
+    padding: 10px 10px;
+    text-align: center;
+    margin: auto;
+    
+    &:hover {
+        background-color: #f47503;
+    }
+}
+
+#dwd-fp-1 {
+    font-family: $slabo;
+    color: #FFF;
+    display: inline-block;
+
+    &:hover {
+        background-color: #f47503;
+        content: "boutonnieres";
+    }
+}
+
+#dwd-fp-2 {
+    
+}
+
+#dwd-fp-3 {
+    
+}
+
+#dwd-fp-4 {
+    
+}
+
+#dwd-fp-5 {
+    
+}
+
+#dwd-fp-6 {
+    
+}
+
 /*********************
 HEADER SYTLES
 *********************/
@@ -51,7 +103,10 @@ HEADER SYTLES
 #wpadminbar { min-height: 32px; }
 
 .header {}
-	#logo {}
+	#logo {
+	    width: 100%;
+	    margin: auto;
+	}
 	#banner {
 
 		background-position:top center;
