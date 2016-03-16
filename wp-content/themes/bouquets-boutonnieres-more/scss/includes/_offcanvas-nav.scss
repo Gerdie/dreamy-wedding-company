@@ -24,7 +24,7 @@ Stylesheet: Off-Canvas Navigation
         li {
             display: block;
             text-transform: lowercase;
-            border-bottom: 2px solid #222;
+            border-bottom: 2px solid #fff;
             margin: 0;
             padding: 0;
             @include transition(all 0.25s ease-in-out);
@@ -46,6 +46,7 @@ Stylesheet: Off-Canvas Navigation
 
             a.menu-button{
                 display:block;
+                color: #000;
                 text-align:center;
                 width:20%;
                 margin:0;
@@ -109,7 +110,7 @@ Stylesheet: Off-Canvas Navigation
         white-space: nowrap;
         margin: 0 2% 0 10px;
         overflow: hidden;
-        color: #367992;
+        color: #000;
         font-size: 1em;
         @include transition(all 0.25s ease-in-out);
 
@@ -119,9 +120,19 @@ Stylesheet: Off-Canvas Navigation
     }
 }
 
-body.menu-open{
+body.menu-open {
     #container {
-        left: -70%;
+        left: -20%;
+        #main-navigation {
+            li {
+                a {
+                    border-bottom: 2px solid #fff;
+                    &:hover, &:focus {
+                        color: $dwd-gold;
+                    }
+                }
+            }
+        }
     }
 }
 

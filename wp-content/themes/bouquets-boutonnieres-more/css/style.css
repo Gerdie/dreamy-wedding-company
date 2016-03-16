@@ -2274,7 +2274,7 @@ Stylesheet: Off-Canvas Navigation
 #main-navigation ul.menu li {
   display: block;
   text-transform: lowercase;
-  border-bottom: 2px solid #222;
+  border-bottom: 2px solid #fff;
   margin: 0;
   padding: 0;
   -webkit-transition: all 0.25s ease-in-out;
@@ -2304,6 +2304,7 @@ Stylesheet: Off-Canvas Navigation
 /* line 47, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li a.menu-button {
   display: block;
+  color: #000;
   text-align: center;
   width: 20%;
   margin: 0;
@@ -2317,7 +2318,7 @@ Stylesheet: Off-Canvas Navigation
   -transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* line 60, ../scss/includes/_offcanvas-nav.scss */
+/* line 61, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li a.menu-back-button {
   display: inline-block;
   width: 100%;
@@ -2331,11 +2332,11 @@ Stylesheet: Off-Canvas Navigation
   -transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* line 78, ../scss/includes/_offcanvas-nav.scss */
+/* line 79, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li.menu-item-no-children a {
   width: 100%;
 }
-/* line 86, ../scss/includes/_offcanvas-nav.scss */
+/* line 87, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li ul.sub-menu {
   display: block;
   width: 100%;
@@ -2352,11 +2353,11 @@ Stylesheet: Off-Canvas Navigation
   -transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* line 98, ../scss/includes/_offcanvas-nav.scss */
+/* line 99, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation ul.menu li ul.sub-menu-open {
   right: 0%;
 }
-/* line 103, ../scss/includes/_offcanvas-nav.scss */
+/* line 104, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation .menu-button {
   display: block;
   float: right;
@@ -2366,7 +2367,7 @@ Stylesheet: Off-Canvas Navigation
   white-space: nowrap;
   margin: 0 2% 0 10px;
   overflow: hidden;
-  color: #367992;
+  color: #000;
   font-size: 1em;
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -2375,14 +2376,22 @@ Stylesheet: Off-Canvas Navigation
   -transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-/* line 116, ../scss/includes/_offcanvas-nav.scss */
+/* line 117, ../scss/includes/_offcanvas-nav.scss */
 #main-navigation .menu-button:hover, #main-navigation .menu-button:active, #main-navigation .menu-button:focus {
   text-decoration: none;
 }
 
-/* line 123, ../scss/includes/_offcanvas-nav.scss */
+/* line 124, ../scss/includes/_offcanvas-nav.scss */
 body.menu-open #container {
-  left: -70%;
+  left: -20%;
+}
+/* line 128, ../scss/includes/_offcanvas-nav.scss */
+body.menu-open #container #main-navigation li a {
+  border-bottom: 2px solid #fff;
+}
+/* line 130, ../scss/includes/_offcanvas-nav.scss */
+body.menu-open #container #main-navigation li a:hover, body.menu-open #container #main-navigation li a:focus {
+  color: #e2bf47;
 }
 
 /*
@@ -2395,14 +2404,14 @@ Here you can begin to add more resource-intensive styles.
 */
 @media only screen and (min-width: 768px) {
   /****Main Navigation****/
-  /* line 143, ../scss/includes/_offcanvas-nav.scss */
+  /* line 154, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation {
     white-space: nowrap;
     margin-right: 14%;
     /* end ul.menu */
     /*menu buttons*/
   }
-  /* line 147, ../scss/includes/_offcanvas-nav.scss */
+  /* line 158, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu {
     text-align: center;
     width: auto;
@@ -2418,7 +2427,7 @@ Here you can begin to add more resource-intensive styles.
     /* end .menu li */
     /*Show the child ul*/
   }
-  /* line 158, ../scss/includes/_offcanvas-nav.scss */
+  /* line 169, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li {
     display: inline-block;
     border-bottom: none;
@@ -2427,40 +2436,40 @@ Here you can begin to add more resource-intensive styles.
     margin-left: -4px;
     /*Children*/
   }
-  /* line 165, ../scss/includes/_offcanvas-nav.scss */
+  /* line 176, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a {
     display: inline-block;
     width: auto;
     padding: 10px 20px 0 px 20px;
   }
-  /* line 172, ../scss/includes/_offcanvas-nav.scss */
+  /* line 183, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a.menu-button {
     display: none!important;
   }
-  /* line 176, ../scss/includes/_offcanvas-nav.scss */
+  /* line 187, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a.menu-back-button {
     display: none!important;
   }
-  /* line 182, ../scss/includes/_offcanvas-nav.scss */
+  /* line 193, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:first-child a {
     border-left: none;
   }
-  /* line 187, ../scss/includes/_offcanvas-nav.scss */
+  /* line 198, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child {
     /*Children*/
   }
-  /* line 191, ../scss/includes/_offcanvas-nav.scss */
+  /* line 202, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.children {
     left: auto;
     right: 0;
   }
-  /* line 195, ../scss/includes/_offcanvas-nav.scss */
+  /* line 206, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li,
   #main-navigation ul.menu li:last-child ul.children li {
     /*Grand Children*/
   }
-  /* line 199, ../scss/includes/_offcanvas-nav.scss */
+  /* line 210, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.children,
   #main-navigation ul.menu li:last-child ul.children li ul.sub-menu,
@@ -2468,11 +2477,11 @@ Here you can begin to add more resource-intensive styles.
     left: auto;
     right: 99.9%;
   }
-  /* line 211, ../scss/includes/_offcanvas-nav.scss */
+  /* line 222, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li.menu-item-no-children a {
     width: auto;
   }
-  /* line 220, ../scss/includes/_offcanvas-nav.scss */
+  /* line 231, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu,
   #main-navigation ul.menu li ul.children {
     display: none;
@@ -2491,7 +2500,7 @@ Here you can begin to add more resource-intensive styles.
     -transition: top 1s;
     transition: top 1s;
   }
-  /* line 232, ../scss/includes/_offcanvas-nav.scss */
+  /* line 243, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li,
   #main-navigation ul.menu li ul.children li {
     display: block;
@@ -2499,7 +2508,7 @@ Here you can begin to add more resource-intensive styles.
     margin: 0;
     /*Grand Children*/
   }
-  /* line 237, ../scss/includes/_offcanvas-nav.scss */
+  /* line 248, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li a,
   #main-navigation ul.menu li ul.children li a {
     display: block;
@@ -2507,7 +2516,7 @@ Here you can begin to add more resource-intensive styles.
     border-left: none;
     padding: 10px;
   }
-  /* line 259, ../scss/includes/_offcanvas-nav.scss */
+  /* line 270, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li ul.sub-menu li ul.children,
   #main-navigation ul.menu li ul.children li ul.sub-menu,
@@ -2515,11 +2524,11 @@ Here you can begin to add more resource-intensive styles.
     left: 99.9%;
     top: 0;
   }
-  /* line 269, ../scss/includes/_offcanvas-nav.scss */
+  /* line 280, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:hover > ul {
     display: table;
   }
-  /* line 275, ../scss/includes/_offcanvas-nav.scss */
+  /* line 286, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation .menu-button {
     display: none;
   }
@@ -2534,26 +2543,26 @@ FULL VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 */
 @media only screen and (min-width: 1200px) {
-  /* line 294, ../scss/includes/_offcanvas-nav.scss */
+  /* line 305, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu {
     /* end .menu li */
   }
-  /* line 300, ../scss/includes/_offcanvas-nav.scss */
+  /* line 311, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child {
     /*Children*/
   }
-  /* line 304, ../scss/includes/_offcanvas-nav.scss */
+  /* line 315, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.children {
     left: 0;
     right: auto;
   }
-  /* line 308, ../scss/includes/_offcanvas-nav.scss */
+  /* line 319, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li,
   #main-navigation ul.menu li:last-child ul.children li {
     /*Grand Children*/
   }
-  /* line 312, ../scss/includes/_offcanvas-nav.scss */
+  /* line 323, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.children,
   #main-navigation ul.menu li:last-child ul.children li ul.sub-menu,
