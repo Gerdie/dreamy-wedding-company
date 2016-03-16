@@ -136,7 +136,29 @@ body.menu-open {
     }
 }
 
+/****Services Navigation****/
 
+#dwd-services {
+	list-style: none;
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+#dwd-services li {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#dwd-services li a {
+    color: #000;
+    text-transform: uppercase;
+    font-family: $slabo;
+    &:hover {
+        color: $dwd-gold;
+        text-decoration:none;
+    }
+}
 /*
 LARGER MOBILE DEVICES
 Should you need to customize the display for larger mobile devices.
