@@ -64,35 +64,56 @@ body {
     }
 }
 
-#dwd-fp-1 {
+#dwd-fp-1,
+#dwd-fp-2,
+#dwd-fp-3,
+#dwd-fp-4,
+#dwd-fp-5,
+#dwd-fp-6 {
+    position:relative;
+}
+
+#dwd-fp-1-0,
+#dwd-fp-2-0,
+#dwd-fp-3-0,
+#dwd-fp-4-0,
+#dwd-fp-6-0 {
+    font-family: $slabo;
+    font-size: 40px;
+    color: #FFF;
+    position: absolute;
+    top:24%;
+    display: none;
+}
+
+#dwd-fp-1-0 {
+    left: 45px;
+}
+
+#dwd-fp-2-0 {
+    left: 80px;    
+}
+
+#dwd-fp-3-0 {
+    left: 80px;    
+}
+
+#dwd-fp-4-0 {
+    left: 80px;    
+}
+
+#dwd-fp-5-0 {
+    left: 125px; 
+    font-size: 80px;
+    top: 5%;
     font-family: $slabo;
     color: #FFF;
-    display: inline-block;
-
-    &:hover {
-        background-color: #f47503;
-        content: "boutonnieres";
-    }
+    position: absolute;
+    display: none;   
 }
 
-#dwd-fp-2 {
-    
-}
-
-#dwd-fp-3 {
-    
-}
-
-#dwd-fp-4 {
-    
-}
-
-#dwd-fp-5 {
-    
-}
-
-#dwd-fp-6 {
-    
+#dwd-fp-6-0 {
+    left: 110px;    
 }
 
 /*********************

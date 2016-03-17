@@ -4982,40 +4982,88 @@ body #container {
   background-color: #f47503;
 }
 
-/* line 67, ../scss/responsive-styles/_xs.scss */
-#dwd-fp-1 {
+/* line 72, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-1,
+#dwd-fp-2,
+#dwd-fp-3,
+#dwd-fp-4,
+#dwd-fp-5,
+#dwd-fp-6 {
+  position: relative;
+}
+
+/* line 80, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-1-0,
+#dwd-fp-2-0,
+#dwd-fp-3-0,
+#dwd-fp-4-0,
+#dwd-fp-6-0 {
+  font-family: "Slabo 27px", serif;
+  font-size: 40px;
+  color: #FFF;
+  position: absolute;
+  top: 24%;
+  display: none;
+}
+
+/* line 89, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-1-0 {
+  left: 45px;
+}
+
+/* line 93, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-2-0 {
+  left: 80px;
+}
+
+/* line 97, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-3-0 {
+  left: 80px;
+}
+
+/* line 101, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-4-0 {
+  left: 80px;
+}
+
+/* line 105, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-5-0 {
+  left: 125px;
+  font-size: 80px;
+  top: 5%;
   font-family: "Slabo 27px", serif;
   color: #FFF;
-  display: inline-block;
+  position: absolute;
+  display: none;
 }
-/* line 72, ../scss/responsive-styles/_xs.scss */
-#dwd-fp-1:hover {
-  background-color: #f47503;
-  content: "boutonnieres";
+
+/* line 115, ../scss/responsive-styles/_xs.scss */
+#dwd-fp-6-0 {
+  left: 110px;
 }
 
 /*********************
 HEADER SYTLES
 *********************/
 /* Ensure that there is no gap between the header and the admin bar for WordPress versions before 3.8. */
-/* line 103, ../scss/responsive-styles/_xs.scss */
+/* line 124, ../scss/responsive-styles/_xs.scss */
 #wpadminbar {
   min-height: 32px;
 }
 
-/* line 106, ../scss/responsive-styles/_xs.scss */
+/* line 127, ../scss/responsive-styles/_xs.scss */
 #logo {
   width: 100%;
   margin: auto;
 }
 
-/* line 110, ../scss/responsive-styles/_xs.scss */
+/* line 131, ../scss/responsive-styles/_xs.scss */
 #banner {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 116, ../scss/responsive-styles/_xs.scss */
+/* line 137, ../scss/responsive-styles/_xs.scss */
 #banner .spacer {
   padding-top: 26%;
 }
@@ -5027,11 +5075,11 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 130, ../scss/responsive-styles/_xs.scss */
+/* line 151, ../scss/responsive-styles/_xs.scss */
 #content {
   margin: 2em 0;
 }
-/* line 133, ../scss/responsive-styles/_xs.scss */
+/* line 154, ../scss/responsive-styles/_xs.scss */
 #content #inner-content {
   /* end .hentry */
   /* general title class */
@@ -5047,7 +5095,7 @@ POSTS & CONTENT STYLES
   /* post meta */
   /* entry content */
 }
-/* line 164, ../scss/responsive-styles/_xs.scss */
+/* line 185, ../scss/responsive-styles/_xs.scss */
 #content #inner-content .byline {
   color: #999;
   margin: -1em 0 1em;
@@ -5056,7 +5104,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVIGATION STYLES
 ******************************************************************/
-/* line 220, ../scss/responsive-styles/_xs.scss */
+/* line 241, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi {
   margin: 1em 0;
   /* current page link */
@@ -5068,12 +5116,12 @@ PAGE NAVIGATION STYLES
   /* first page link */
   /* last page link */
 }
-/* line 223, ../scss/responsive-styles/_xs.scss */
+/* line 244, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li {
   float: left;
   margin: 0;
 }
-/* line 227, ../scss/responsive-styles/_xs.scss */
+/* line 248, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a {
   display: block;
   color: #333;
@@ -5081,43 +5129,43 @@ PAGE NAVIGATION STYLES
   padding: 3px 10px;
   position: relative;
 }
-/* line 235, ../scss/responsive-styles/_xs.scss */
+/* line 256, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a:hover, .bouquets_boutonnieres_more_page_navi li a:focus {
   color: #008cba;
   text-decoration: underline;
 }
-/* line 244, ../scss/responsive-styles/_xs.scss */
+/* line 265, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current {
   background-color: #f5f5f5;
   color: #008cba;
   padding: 3px 10px;
   position: relative;
 }
-/* line 250, ../scss/responsive-styles/_xs.scss */
+/* line 271, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 253, ../scss/responsive-styles/_xs.scss */
+/* line 274, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-current a:focus {
   color: #333;
 }
-/* line 263, ../scss/responsive-styles/_xs.scss */
+/* line 284, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 266, ../scss/responsive-styles/_xs.scss */
+/* line 287, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a {
   color: #008cba;
 }
-/* line 270, ../scss/responsive-styles/_xs.scss */
+/* line 291, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:focus,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:focus {
   color: #333;
 }
-/* line 280, ../scss/responsive-styles/_xs.scss */
+/* line 301, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-first-page-link a:hover,
@@ -5127,11 +5175,11 @@ PAGE NAVIGATION STYLES
 
 /* end .bouquets_boutonnieres_more_page_navi */
 /* fallback previous & next links */
-/* line 323, ../scss/responsive-styles/_xs.scss */
+/* line 344, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 327, ../scss/responsive-styles/_xs.scss */
+/* line 348, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -5431,32 +5479,32 @@ COMMENTS STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 344, ../scss/responsive-styles/_xs.scss */
+/* line 365, ../scss/responsive-styles/_xs.scss */
 .sidebar {
   margin-top: 2em;
 }
 
-/* line 348, ../scss/responsive-styles/_xs.scss */
+/* line 369, ../scss/responsive-styles/_xs.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 353, ../scss/responsive-styles/_xs.scss */
+/* line 374, ../scss/responsive-styles/_xs.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 357, ../scss/responsive-styles/_xs.scss */
+/* line 378, ../scss/responsive-styles/_xs.scss */
 .widget.first-widget {
   margin: 0 0 2.2em;
 }
-/* line 362, ../scss/responsive-styles/_xs.scss */
+/* line 383, ../scss/responsive-styles/_xs.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 370, ../scss/responsive-styles/_xs.scss */
+/* line 391, ../scss/responsive-styles/_xs.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -5476,7 +5524,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 470, ../scss/responsive-styles/_xs.scss */
+/* line 491, ../scss/responsive-styles/_xs.scss */
 #social {
   list-style: none;
   list-style-type: none;
@@ -5484,65 +5532,65 @@ FOOTER STYLES
   text-align: center;
 }
 
-/* line 477, ../scss/responsive-styles/_xs.scss */
+/* line 498, ../scss/responsive-styles/_xs.scss */
 #social li {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 482, ../scss/responsive-styles/_xs.scss */
+/* line 503, ../scss/responsive-styles/_xs.scss */
 #social li a {
   color: #000;
 }
-/* line 484, ../scss/responsive-styles/_xs.scss */
+/* line 505, ../scss/responsive-styles/_xs.scss */
 #social li a:hover {
   color: #e2bf47;
 }
 
-/* line 489, ../scss/responsive-styles/_xs.scss */
+/* line 510, ../scss/responsive-styles/_xs.scss */
 #social li a img {
   width: 1.2em;
   float: bottom;
 }
 
-/* line 494, ../scss/responsive-styles/_xs.scss */
+/* line 515, ../scss/responsive-styles/_xs.scss */
 #colophon {
   clear: both;
   padding: 0;
 }
 
-/* line 499, ../scss/responsive-styles/_xs.scss */
+/* line 520, ../scss/responsive-styles/_xs.scss */
 #inner-footer hr {
   margin: 0;
 }
 
-/* line 503, ../scss/responsive-styles/_xs.scss */
+/* line 524, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu {
   display: inline-block;
   text-align: right;
   margin: 0;
   padding: 0;
 }
-/* line 509, ../scss/responsive-styles/_xs.scss */
+/* line 530, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li {
   display: inline-block;
   margin: 0 0 0 -4px;
   padding: 0;
 }
-/* line 514, ../scss/responsive-styles/_xs.scss */
+/* line 535, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li a {
   border-left: 1px solid #ccc;
   color: #999;
   line-height: normal;
   padding: 0 1em;
 }
-/* line 521, ../scss/responsive-styles/_xs.scss */
+/* line 542, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li:first-child a {
   border-left: none;
 }
 
 /* end .footer-menu */
-/* line 529, ../scss/responsive-styles/_xs.scss */
+/* line 550, ../scss/responsive-styles/_xs.scss */
 #back-top {
   position: fixed;
   bottom: 10px;
@@ -5550,7 +5598,7 @@ ul.footer-menu li:first-child a {
   right: 0;
   z-index: 9999;
 }
-/* line 536, ../scss/responsive-styles/_xs.scss */
+/* line 557, ../scss/responsive-styles/_xs.scss */
 #back-top a {
   width: 40px;
   display: block;
@@ -5569,12 +5617,12 @@ ul.footer-menu li:first-child a {
   -o-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 545, ../scss/responsive-styles/_xs.scss */
+/* line 566, ../scss/responsive-styles/_xs.scss */
 #back-top a:hover, #back-top a:focus {
   color: #000;
   opacity: 1;
 }
-/* line 551, ../scss/responsive-styles/_xs.scss */
+/* line 572, ../scss/responsive-styles/_xs.scss */
 #back-top i {
   width: 40px;
   height: 40px;

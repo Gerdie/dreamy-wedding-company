@@ -57,6 +57,133 @@ function getScrollBarWidth () {
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
 
+	//Frontpage Hover
+	$('#dwd-fp-1').on({
+        'mouseenter': function(){
+            $('#dwd-fp-1').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover1.png');
+            $('#dwd-fp-1-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-1-0').on({
+        'mouseenter': function(){
+            $('#dwd-fp-1').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover1.png');
+            $('#dwd-fp-1-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-1').on({
+        'mouseleave': function(){
+            $('#dwd-fp-1').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/boutonniere-300sq.jpg');
+            $('#dwd-fp-1-0').attr('style', 'display:none');
+        }
+    });
+    
+	$('#dwd-fp-2').on({
+        'mouseenter': function(){
+            $('#dwd-fp-2').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover2.png');
+            $('#dwd-fp-2-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-2-0').on({
+        'mouseenter': function(){
+            $('#dwd-fp-2').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover2.png');
+            $('#dwd-fp-2-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-2').on({
+        'mouseleave': function(){
+            $('#dwd-fp-2').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/ceremony-300sq.jpg');
+            $('#dwd-fp-2-0').attr('style', 'display:none');
+        }
+    });
+
+	$('#dwd-fp-3').on({
+        'mouseenter': function(){
+            $('#dwd-fp-3').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover3.png');
+            $('#dwd-fp-3-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-3-0').on({
+        'mouseenter': function(){
+            $('#dwd-fp-3').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover3.png');
+            $('#dwd-fp-3-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-3').on({
+        'mouseleave': function(){
+            $('#dwd-fp-3').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/bouquet-pw-300sq.jpg');
+            $('#dwd-fp-3-0').attr('style', 'display:none');
+        }
+    });
+
+	$('#dwd-fp-4').on({
+        'mouseenter': function(){
+            $('#dwd-fp-4').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover4.png');
+            $('#dwd-fp-4-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-4-0').on({
+        'mouseenter': function(){
+            $('#dwd-fp-4').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover4.png');
+            $('#dwd-fp-4-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-4').on({
+        'mouseleave': function(){
+            $('#dwd-fp-4').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/cake-top-300sq.jpg');
+            $('#dwd-fp-4-0').attr('style', 'display:none');
+        }
+    });	
+
+	$('#dwd-fp-5').on({
+        'mouseenter': function(){
+            $('#dwd-fp-5').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover5.png');
+            $('#dwd-fp-5-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-5-0').on({
+        'mouseenter': function(){
+            $('#dwd-fp-5').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover5.png');
+            $('#dwd-fp-5-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-5').on({
+        'mouseleave': function(){
+            $('#dwd-fp-5').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/shoes-300sq.jpg');
+            $('#dwd-fp-5-0').attr('style', 'display:none');
+        }
+    });
+
+	$('#dwd-fp-6').on({
+        'mouseenter': function(){
+            $('#dwd-fp-6').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover6.png');
+            $('#dwd-fp-6-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-6-0').on({
+        'mouseenter': function(){
+            $('#dwd-fp-6').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/hover6.png');
+            $('#dwd-fp-6-0').attr('style', 'display:block');
+        }
+    });
+
+	$('#dwd-fp-6').on({
+        'mouseleave': function(){
+            $('#dwd-fp-6').attr('src','http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/white-bout-300sq.jpg');
+            $('#dwd-fp-6-0').attr('style', 'display:none');
+        }
+    });
+	
 	//ChosenJs Select Input - https://github.com/harvesthq/chosen for more info
 	$("select").chosen({no_results_text: "Oops, nothing found!", width: "99.5%"});
 
