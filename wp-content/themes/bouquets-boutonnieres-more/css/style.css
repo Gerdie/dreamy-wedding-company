@@ -968,7 +968,7 @@ CUSTOMIZED RESET VALUES
 /* line 18, ../scss/includes/_typography.scss */
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #111;
 }
@@ -2291,7 +2291,7 @@ Stylesheet: Off-Canvas Navigation
   display: inline-block;
   color: #000;
   font-family: "Slabo 27px", serif;
-  font-size: 1.143em;
+  font-size: 18px;
   text-decoration: none;
   width: 80%;
   margin: 15px 7px 0 7px;
@@ -2414,8 +2414,9 @@ body.menu-open #container #main-navigation li a:hover, body.menu-open #container
   color: #000;
   text-transform: uppercase;
   font-family: "Slabo 27px", serif;
+  font-size: 16px;
 }
-/* line 157, ../scss/includes/_offcanvas-nav.scss */
+/* line 158, ../scss/includes/_offcanvas-nav.scss */
 #dwd-services li a:hover {
   color: #e2bf47;
   text-decoration: none;
@@ -2431,14 +2432,14 @@ Here you can begin to add more resource-intensive styles.
 */
 @media only screen and (min-width: 768px) {
   /****Main Navigation****/
-  /* line 176, ../scss/includes/_offcanvas-nav.scss */
+  /* line 177, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation {
     white-space: nowrap;
     margin-right: 14%;
     /* end ul.menu */
     /*menu buttons*/
   }
-  /* line 180, ../scss/includes/_offcanvas-nav.scss */
+  /* line 181, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu {
     text-align: center;
     width: auto;
@@ -2454,7 +2455,7 @@ Here you can begin to add more resource-intensive styles.
     /* end .menu li */
     /*Show the child ul*/
   }
-  /* line 191, ../scss/includes/_offcanvas-nav.scss */
+  /* line 192, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li {
     display: inline-block;
     border-bottom: none;
@@ -2463,40 +2464,40 @@ Here you can begin to add more resource-intensive styles.
     margin-left: -4px;
     /*Children*/
   }
-  /* line 198, ../scss/includes/_offcanvas-nav.scss */
+  /* line 199, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a {
     display: inline-block;
     width: auto;
     padding: 10px 20px 0 px 20px;
   }
-  /* line 205, ../scss/includes/_offcanvas-nav.scss */
+  /* line 206, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a.menu-button {
     display: none!important;
   }
-  /* line 209, ../scss/includes/_offcanvas-nav.scss */
+  /* line 210, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li a.menu-back-button {
     display: none!important;
   }
-  /* line 215, ../scss/includes/_offcanvas-nav.scss */
+  /* line 216, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:first-child a {
     border-left: none;
   }
-  /* line 220, ../scss/includes/_offcanvas-nav.scss */
+  /* line 221, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child {
     /*Children*/
   }
-  /* line 224, ../scss/includes/_offcanvas-nav.scss */
+  /* line 225, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.children {
     left: auto;
     right: 0;
   }
-  /* line 228, ../scss/includes/_offcanvas-nav.scss */
+  /* line 229, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li,
   #main-navigation ul.menu li:last-child ul.children li {
     /*Grand Children*/
   }
-  /* line 232, ../scss/includes/_offcanvas-nav.scss */
+  /* line 233, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.children,
   #main-navigation ul.menu li:last-child ul.children li ul.sub-menu,
@@ -2504,11 +2505,11 @@ Here you can begin to add more resource-intensive styles.
     left: auto;
     right: 99.9%;
   }
-  /* line 244, ../scss/includes/_offcanvas-nav.scss */
+  /* line 245, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li.menu-item-no-children a {
     width: auto;
   }
-  /* line 253, ../scss/includes/_offcanvas-nav.scss */
+  /* line 254, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu,
   #main-navigation ul.menu li ul.children {
     display: none;
@@ -2527,7 +2528,7 @@ Here you can begin to add more resource-intensive styles.
     -transition: top 1s;
     transition: top 1s;
   }
-  /* line 265, ../scss/includes/_offcanvas-nav.scss */
+  /* line 266, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li,
   #main-navigation ul.menu li ul.children li {
     display: block;
@@ -2535,7 +2536,7 @@ Here you can begin to add more resource-intensive styles.
     margin: 0;
     /*Grand Children*/
   }
-  /* line 270, ../scss/includes/_offcanvas-nav.scss */
+  /* line 271, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li a,
   #main-navigation ul.menu li ul.children li a {
     display: block;
@@ -2543,7 +2544,7 @@ Here you can begin to add more resource-intensive styles.
     border-left: none;
     padding: 10px;
   }
-  /* line 292, ../scss/includes/_offcanvas-nav.scss */
+  /* line 293, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li ul.sub-menu li ul.children,
   #main-navigation ul.menu li ul.children li ul.sub-menu,
@@ -2551,11 +2552,11 @@ Here you can begin to add more resource-intensive styles.
     left: 99.9%;
     top: 0;
   }
-  /* line 302, ../scss/includes/_offcanvas-nav.scss */
+  /* line 303, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:hover > ul {
     display: table;
   }
-  /* line 308, ../scss/includes/_offcanvas-nav.scss */
+  /* line 309, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation .menu-button {
     display: none;
   }
@@ -2570,26 +2571,26 @@ FULL VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 */
 @media only screen and (min-width: 1200px) {
-  /* line 327, ../scss/includes/_offcanvas-nav.scss */
+  /* line 328, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu {
     /* end .menu li */
   }
-  /* line 333, ../scss/includes/_offcanvas-nav.scss */
+  /* line 334, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child {
     /*Children*/
   }
-  /* line 337, ../scss/includes/_offcanvas-nav.scss */
+  /* line 338, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.children {
     left: 0;
     right: auto;
   }
-  /* line 341, ../scss/includes/_offcanvas-nav.scss */
+  /* line 342, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li,
   #main-navigation ul.menu li:last-child ul.children li {
     /*Grand Children*/
   }
-  /* line 345, ../scss/includes/_offcanvas-nav.scss */
+  /* line 346, ../scss/includes/_offcanvas-nav.scss */
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.sub-menu,
   #main-navigation ul.menu li:last-child ul.sub-menu li ul.children,
   #main-navigation ul.menu li:last-child ul.children li ul.sub-menu,
@@ -4924,6 +4925,7 @@ and will be used across all viewports.
 /*
 CONTENTS:
 1. General Styles
+2. Custom Field Styles
 3. Header Styles
 4. Navigation Styles
 5. Posts & Content Styles
@@ -4935,18 +4937,18 @@ CONTENTS:
 /*********************
 GENERAL STYLES
 *********************/
-/* line 29, ../scss/responsive-styles/_xs.scss */
+/* line 30, ../scss/responsive-styles/_xs.scss */
 html {
   height: 100%;
   overflow-x: hidden;
 }
 
-/* line 34, ../scss/responsive-styles/_xs.scss */
+/* line 35, ../scss/responsive-styles/_xs.scss */
 body {
   height: auto;
   overflow-x: hidden;
 }
-/* line 38, ../scss/responsive-styles/_xs.scss */
+/* line 39, ../scss/responsive-styles/_xs.scss */
 body #container {
   height: 100%;
   /*styles for mobile nav slide in*/
@@ -4959,14 +4961,14 @@ body #container {
   transition: all 0.25s ease-in-out;
 }
 
-/* line 46, ../scss/responsive-styles/_xs.scss */
+/* line 47, ../scss/responsive-styles/_xs.scss */
 .dwd-who {
   text-align: center;
   margin-bottom: 5px;
   margin-top: 5px;
 }
 
-/* line 52, ../scss/responsive-styles/_xs.scss */
+/* line 53, ../scss/responsive-styles/_xs.scss */
 .dwd-button {
   font-family: "Slabo 27px", serif;
   background-color: #e2bf47;
@@ -4977,12 +4979,12 @@ body #container {
   text-align: center;
   margin: auto;
 }
-/* line 62, ../scss/responsive-styles/_xs.scss */
+/* line 63, ../scss/responsive-styles/_xs.scss */
 .dwd-button:hover {
   background-color: #f47503;
 }
 
-/* line 72, ../scss/responsive-styles/_xs.scss */
+/* line 73, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-1,
 #dwd-fp-2,
 #dwd-fp-3,
@@ -4992,7 +4994,7 @@ body #container {
   position: relative;
 }
 
-/* line 80, ../scss/responsive-styles/_xs.scss */
+/* line 81, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-1-0,
 #dwd-fp-2-0,
 #dwd-fp-3-0,
@@ -5006,27 +5008,27 @@ body #container {
   display: none;
 }
 
-/* line 89, ../scss/responsive-styles/_xs.scss */
+/* line 90, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-1-0 {
   left: 45px;
 }
 
-/* line 93, ../scss/responsive-styles/_xs.scss */
+/* line 94, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-2-0 {
   left: 80px;
 }
 
-/* line 97, ../scss/responsive-styles/_xs.scss */
+/* line 98, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-3-0 {
   left: 80px;
 }
 
-/* line 101, ../scss/responsive-styles/_xs.scss */
+/* line 102, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-4-0 {
   left: 80px;
 }
 
-/* line 105, ../scss/responsive-styles/_xs.scss */
+/* line 106, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-5-0 {
   left: 125px;
   font-size: 80px;
@@ -5037,33 +5039,42 @@ body #container {
   display: none;
 }
 
-/* line 115, ../scss/responsive-styles/_xs.scss */
+/* line 116, ../scss/responsive-styles/_xs.scss */
 #dwd-fp-6-0 {
   left: 110px;
+}
+
+/*********************
+CUSTOM FIELD STYLES
+*********************/
+/* line 124, ../scss/responsive-styles/_xs.scss */
+.dwd-speaker {
+  font-family: "Parisienne", cursive;
+  font-size: 16px;
 }
 
 /*********************
 HEADER SYTLES
 *********************/
 /* Ensure that there is no gap between the header and the admin bar for WordPress versions before 3.8. */
-/* line 124, ../scss/responsive-styles/_xs.scss */
+/* line 134, ../scss/responsive-styles/_xs.scss */
 #wpadminbar {
   min-height: 32px;
 }
 
-/* line 127, ../scss/responsive-styles/_xs.scss */
+/* line 137, ../scss/responsive-styles/_xs.scss */
 #logo {
   width: 100%;
   margin: auto;
 }
 
-/* line 131, ../scss/responsive-styles/_xs.scss */
+/* line 141, ../scss/responsive-styles/_xs.scss */
 #banner {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 137, ../scss/responsive-styles/_xs.scss */
+/* line 147, ../scss/responsive-styles/_xs.scss */
 #banner .spacer {
   padding-top: 26%;
 }
@@ -5075,11 +5086,11 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 151, ../scss/responsive-styles/_xs.scss */
+/* line 161, ../scss/responsive-styles/_xs.scss */
 #content {
   margin: 2em 0;
 }
-/* line 154, ../scss/responsive-styles/_xs.scss */
+/* line 164, ../scss/responsive-styles/_xs.scss */
 #content #inner-content {
   /* end .hentry */
   /* general title class */
@@ -5095,7 +5106,7 @@ POSTS & CONTENT STYLES
   /* post meta */
   /* entry content */
 }
-/* line 185, ../scss/responsive-styles/_xs.scss */
+/* line 195, ../scss/responsive-styles/_xs.scss */
 #content #inner-content .byline {
   color: #999;
   margin: -1em 0 1em;
@@ -5104,7 +5115,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVIGATION STYLES
 ******************************************************************/
-/* line 241, ../scss/responsive-styles/_xs.scss */
+/* line 251, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi {
   margin: 1em 0;
   /* current page link */
@@ -5116,12 +5127,12 @@ PAGE NAVIGATION STYLES
   /* first page link */
   /* last page link */
 }
-/* line 244, ../scss/responsive-styles/_xs.scss */
+/* line 254, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li {
   float: left;
   margin: 0;
 }
-/* line 248, ../scss/responsive-styles/_xs.scss */
+/* line 258, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a {
   display: block;
   color: #333;
@@ -5129,43 +5140,43 @@ PAGE NAVIGATION STYLES
   padding: 3px 10px;
   position: relative;
 }
-/* line 256, ../scss/responsive-styles/_xs.scss */
+/* line 266, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a:hover, .bouquets_boutonnieres_more_page_navi li a:focus {
   color: #008cba;
   text-decoration: underline;
 }
-/* line 265, ../scss/responsive-styles/_xs.scss */
+/* line 275, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current {
   background-color: #f5f5f5;
   color: #008cba;
   padding: 3px 10px;
   position: relative;
 }
-/* line 271, ../scss/responsive-styles/_xs.scss */
+/* line 281, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 274, ../scss/responsive-styles/_xs.scss */
+/* line 284, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-current a:focus {
   color: #333;
 }
-/* line 284, ../scss/responsive-styles/_xs.scss */
+/* line 294, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 287, ../scss/responsive-styles/_xs.scss */
+/* line 297, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a {
   color: #008cba;
 }
-/* line 291, ../scss/responsive-styles/_xs.scss */
+/* line 301, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:focus,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:focus {
   color: #333;
 }
-/* line 301, ../scss/responsive-styles/_xs.scss */
+/* line 311, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-first-page-link a:hover,
@@ -5175,11 +5186,11 @@ PAGE NAVIGATION STYLES
 
 /* end .bouquets_boutonnieres_more_page_navi */
 /* fallback previous & next links */
-/* line 344, ../scss/responsive-styles/_xs.scss */
+/* line 354, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 348, ../scss/responsive-styles/_xs.scss */
+/* line 358, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -5479,32 +5490,32 @@ COMMENTS STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 365, ../scss/responsive-styles/_xs.scss */
+/* line 375, ../scss/responsive-styles/_xs.scss */
 .sidebar {
   margin-top: 2em;
 }
 
-/* line 369, ../scss/responsive-styles/_xs.scss */
+/* line 379, ../scss/responsive-styles/_xs.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 374, ../scss/responsive-styles/_xs.scss */
+/* line 384, ../scss/responsive-styles/_xs.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 378, ../scss/responsive-styles/_xs.scss */
+/* line 388, ../scss/responsive-styles/_xs.scss */
 .widget.first-widget {
   margin: 0 0 2.2em;
 }
-/* line 383, ../scss/responsive-styles/_xs.scss */
+/* line 393, ../scss/responsive-styles/_xs.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 391, ../scss/responsive-styles/_xs.scss */
+/* line 401, ../scss/responsive-styles/_xs.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -5524,7 +5535,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 491, ../scss/responsive-styles/_xs.scss */
+/* line 501, ../scss/responsive-styles/_xs.scss */
 #social {
   list-style: none;
   list-style-type: none;
@@ -5532,65 +5543,65 @@ FOOTER STYLES
   text-align: center;
 }
 
-/* line 498, ../scss/responsive-styles/_xs.scss */
+/* line 508, ../scss/responsive-styles/_xs.scss */
 #social li {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 503, ../scss/responsive-styles/_xs.scss */
+/* line 513, ../scss/responsive-styles/_xs.scss */
 #social li a {
   color: #000;
 }
-/* line 505, ../scss/responsive-styles/_xs.scss */
+/* line 515, ../scss/responsive-styles/_xs.scss */
 #social li a:hover {
   color: #e2bf47;
 }
 
-/* line 510, ../scss/responsive-styles/_xs.scss */
+/* line 520, ../scss/responsive-styles/_xs.scss */
 #social li a img {
   width: 1.2em;
   float: bottom;
 }
 
-/* line 515, ../scss/responsive-styles/_xs.scss */
+/* line 525, ../scss/responsive-styles/_xs.scss */
 #colophon {
   clear: both;
   padding: 0;
 }
 
-/* line 520, ../scss/responsive-styles/_xs.scss */
+/* line 530, ../scss/responsive-styles/_xs.scss */
 #inner-footer hr {
   margin: 0;
 }
 
-/* line 524, ../scss/responsive-styles/_xs.scss */
+/* line 534, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu {
   display: inline-block;
   text-align: right;
   margin: 0;
   padding: 0;
 }
-/* line 530, ../scss/responsive-styles/_xs.scss */
+/* line 540, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li {
   display: inline-block;
   margin: 0 0 0 -4px;
   padding: 0;
 }
-/* line 535, ../scss/responsive-styles/_xs.scss */
+/* line 545, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li a {
   border-left: 1px solid #ccc;
   color: #999;
   line-height: normal;
   padding: 0 1em;
 }
-/* line 542, ../scss/responsive-styles/_xs.scss */
+/* line 552, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li:first-child a {
   border-left: none;
 }
 
 /* end .footer-menu */
-/* line 550, ../scss/responsive-styles/_xs.scss */
+/* line 560, ../scss/responsive-styles/_xs.scss */
 #back-top {
   position: fixed;
   bottom: 10px;
@@ -5598,7 +5609,7 @@ ul.footer-menu li:first-child a {
   right: 0;
   z-index: 9999;
 }
-/* line 557, ../scss/responsive-styles/_xs.scss */
+/* line 567, ../scss/responsive-styles/_xs.scss */
 #back-top a {
   width: 40px;
   display: block;
@@ -5617,12 +5628,12 @@ ul.footer-menu li:first-child a {
   -o-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 566, ../scss/responsive-styles/_xs.scss */
+/* line 576, ../scss/responsive-styles/_xs.scss */
 #back-top a:hover, #back-top a:focus {
   color: #000;
   opacity: 1;
 }
-/* line 572, ../scss/responsive-styles/_xs.scss */
+/* line 582, ../scss/responsive-styles/_xs.scss */
 #back-top i {
   width: 40px;
   height: 40px;
@@ -5686,6 +5697,14 @@ Here you can begin to add more resource-intensive styles.
   /* line 48, ../scss/responsive-styles/_sm.scss */
   html > body.sticky-footer #content {
     height: auto;
+  }
+
+  /*********************
+  SERVICE TEMPLATE STYLES
+  *********************/
+  /* line 56, ../scss/responsive-styles/_sm.scss */
+  .dwd-speaker {
+    margin-left: 60%;
   }
 }
 /*

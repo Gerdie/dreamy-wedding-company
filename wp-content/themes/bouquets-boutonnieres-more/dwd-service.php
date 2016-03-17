@@ -60,4 +60,29 @@ Description: Page template with Services menu
 			    </ul>
 			</div>
 
+            <?php 
+            
+            if(get_field('quote'))
+            {
+                echo '<hr>';
+                echo '<div class="row">';
+                echo '<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">';
+                echo '<div class="dwd-quote">' . get_field('quote') . '</div>';
+                if (get_field('speaker'))
+                {
+                    echo '<p class="dwd-speaker">' . get_field('speaker') . '</p>';
+                }
+                echo '</div>';
+                echo '<div class="col-sm-1 col-md-2">';
+                echo '</div>';
+                echo '</div>';
+            }
+            
+            ?>
+            <!--
+			<div class="dwd-testimonial">
+			    <p class="dwd-quote"><?php the_field('quote'); ?></p>
+			    <p class="dwd-speaker"><?php the_field('speaker'); ?></p>
+			</div>
+            -->
 <?php get_footer();
