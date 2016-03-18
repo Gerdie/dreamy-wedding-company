@@ -7,15 +7,25 @@ get_header(); ?>
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'test' ); ?></h1>
+					<h1 class="page-title"><?php _e( 'Sorry, this page has been moved!', 'test' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
-					<p><?php _e( 'It looks like nothing was found at this location. This may be due to the page being moved, renamed or deleted.<ul><li>Check the URL in the address bar above</li><li>Look for the page in the main navigation above or on the <a href="/site-map/" title="Site Map Page">Site Map</a> page</li><li>Try using the Search below.</li></ul>'); ?></p>
-
-					<?php get_search_form(); ?>
+					<p><?php _e( 'But don\'t worry, we\'re still here. From your wedding ceremony, to cocktail hour and your reception, we\'re excited to make your decoration dreams come true!'); ?></p>
 
 				</div>
 			</section>
+			
+			<img class="dwd-weddingparty" src="http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/weddingparty.jpg">
+			
+			<div>
+			    <ul id="dwd-services">
+			        <li><a href="http://localhost:8888/dreamy-wedding-company/bouquets/">Bouquets</a></li>
+			        <li><a href="http://localhost:8888/dreamy-wedding-company/boutonnieres/">Boutonnieres</a></li>
+			        <li><a href="http://localhost:8888/dreamy-wedding-company/ceremony/">Ceremony</a></li>
+			        <li><a href="http://localhost:8888/dreamy-wedding-company/reception/">Reception</a></li>
+			        <li><a href="http://localhost:8888/dreamy-wedding-company/more/">More!</a></li>
+			    </ul>
+			</div>
 
 <?php get_footer();

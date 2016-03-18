@@ -65,6 +65,10 @@ body {
     }
 }
 
+.page-title {
+    text-align: center;
+}
+
 #dwd-fp-1,
 #dwd-fp-2,
 #dwd-fp-3,
@@ -124,6 +128,19 @@ CUSTOM FIELD STYLES
 .dwd-speaker {
     font-family: $parisienne;
     font-size: 16px;
+}
+
+#huge_it_gallery_content_1 {
+
+    div.paginate4 {
+        color: #000 !important;
+        font-family: $sans;
+        font-size: 14px !important;
+        
+        .icon-style4 {
+            color: #000 !important;
+        }
+    }
 }
 
 /*********************

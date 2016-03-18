@@ -11,11 +11,11 @@ Description: Page template with Services menu
 
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 
-						<header class="article-header">
+						<!--<header class="article-header">
 
 							<h1 class="entry-title page-title"><?php the_title(); ?></h1>
 
-						</header>
+						</header> -->
 
 						<section class="entry-content clearfix">
 							<?php the_content(); ?>
@@ -79,10 +79,5 @@ Description: Page template with Services menu
             }
             
             ?>
-            <!--
-			<div class="dwd-testimonial">
-			    <p class="dwd-quote"><?php the_field('quote'); ?></p>
-			    <p class="dwd-speaker"><?php the_field('speaker'); ?></p>
-			</div>
-            -->
+
 <?php get_footer();
