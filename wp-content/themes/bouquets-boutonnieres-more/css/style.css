@@ -2115,18 +2115,13 @@ input[type=button]:first-child {
 /************************
  * NinjaForm Styles
  ************************/
-/* line 143, ../scss/includes/_forms.scss */
-#ninja_forms_form_1_all_fields_wrap {
-  margin: auto;
-}
-
-/* line 147, ../scss/includes/_forms.scss */
+/* line 142, ../scss/includes/_forms.scss */
 .ninja-forms-form-wrap {
   max-width: 600px;
   margin-left: 50px;
 }
 
-/* line 152, ../scss/includes/_forms.scss */
+/* line 147, ../scss/includes/_forms.scss */
 .ninja-forms-field {
   background-color: #e5e5e7;
   border: 1px solid #fff;
@@ -2134,33 +2129,33 @@ input[type=button]:first-child {
   border-radius: 5px;
 }
 
-/* line 159, ../scss/includes/_forms.scss */
+/* line 158, ../scss/includes/_forms.scss */
 .ninja-forms-req-symbol {
   color: #e2bf47 !important;
 }
 
-/* line 163, ../scss/includes/_forms.scss */
+/* line 162, ../scss/includes/_forms.scss */
 #ninja_forms_field_22_div_wrap {
   background: none;
 }
 
-/* line 167, ../scss/includes/_forms.scss */
-#ninja_forms_field_29_div_wrap {
-  margin-top: 0px;
-}
-
-/* line 171, ../scss/includes/_forms.scss */
+/* line 166, ../scss/includes/_forms.scss */
 #ninja_forms_field_19_div_wrap {
   margin-bottom: 0px;
 }
 
-/* line 175, ../scss/includes/_forms.scss */
+/* line 170, ../scss/includes/_forms.scss */
 #ninja_forms_field_3_label {
   font-family: 'Parisienne', cursive;
   font-size: 22px;
 }
 
-/* line 180, ../scss/includes/_forms.scss */
+/* line 175, ../scss/includes/_forms.scss */
+#ninja_forms_field_24_label {
+  padding-bottom: 5px;
+}
+
+/* line 179, ../scss/includes/_forms.scss */
 #ninja_forms_field_5 {
   font-family: "Slabo 27px", serif;
   background-color: #e2bf47;
@@ -2169,14 +2164,14 @@ input[type=button]:first-child {
   width: 150px;
   padding: 10px 10px;
   text-align: center;
-  margin: auto;
+  display: block;
 }
-/* line 190, ../scss/includes/_forms.scss */
+/* line 189, ../scss/includes/_forms.scss */
 #ninja_forms_field_5:hover {
   background-color: #f47503;
 }
 
-/* line 201, ../scss/includes/_forms.scss */
+/* line 200, ../scss/includes/_forms.scss */
 #ninja_forms_field_1,
 #ninja_forms_field_2,
 #ninja_forms_field_13,
@@ -2190,7 +2185,7 @@ input[type=button]:first-child {
 /************************
  * SearchForm Styles
  ************************/
-/* line 211, ../scss/includes/_forms.scss */
+/* line 210, ../scss/includes/_forms.scss */
 #searchform label {
   display: none;
   /* Style to show label in line with text field
@@ -2200,7 +2195,7 @@ input[type=button]:first-child {
   text-transform: uppercase;
   width: 20%;
 }
-/* line 222, ../scss/includes/_forms.scss */
+/* line 221, ../scss/includes/_forms.scss */
 #searchform #s {
   outline: none;
   background: #FFF;
@@ -2223,17 +2218,17 @@ input[type=button]:first-child {
   width: 75%;
   padding: 2px 1%;
 }
-/* line 233, ../scss/includes/_forms.scss */
+/* line 232, ../scss/includes/_forms.scss */
 #searchform #s:focus {
   border: 1px solid #AAA;
 }
-/* line 240, ../scss/includes/_forms.scss */
+/* line 239, ../scss/includes/_forms.scss */
 #searchform #searchsubmit {
   padding: 7px 15px;
 }
 
 /*Search Styles on 404 page*/
-/* line 248, ../scss/includes/_forms.scss */
+/* line 247, ../scss/includes/_forms.scss */
 .error404 #searchform label {
   font-weight: bold;
 }
@@ -2242,7 +2237,7 @@ input[type=button]:first-child {
  * Password Form Styles
  ************************/
 @media only screen and (min-width: 768px) {
-  /* line 267, ../scss/includes/_forms.scss */
+  /* line 266, ../scss/includes/_forms.scss */
   input[type=button],
   input[type=submit] {
     width: auto;
@@ -5049,22 +5044,27 @@ body #container {
   left: 110px;
 }
 
+/* line 124, ../scss/responsive-styles/_xs.scss */
+.hide-sm {
+  display: none;
+}
+
 /*********************
 CUSTOM FIELD STYLES
 *********************/
-/* line 128, ../scss/responsive-styles/_xs.scss */
+/* line 132, ../scss/responsive-styles/_xs.scss */
 .dwd-speaker {
   font-family: "Parisienne", cursive;
   font-size: 16px;
 }
 
-/* line 135, ../scss/responsive-styles/_xs.scss */
+/* line 139, ../scss/responsive-styles/_xs.scss */
 #huge_it_gallery_content_1 div.paginate4 {
   color: #000 !important;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px !important;
 }
-/* line 140, ../scss/responsive-styles/_xs.scss */
+/* line 144, ../scss/responsive-styles/_xs.scss */
 #huge_it_gallery_content_1 div.paginate4 .icon-style4 {
   color: #000 !important;
 }
@@ -5073,24 +5073,24 @@ CUSTOM FIELD STYLES
 HEADER SYTLES
 *********************/
 /* Ensure that there is no gap between the header and the admin bar for WordPress versions before 3.8. */
-/* line 151, ../scss/responsive-styles/_xs.scss */
+/* line 155, ../scss/responsive-styles/_xs.scss */
 #wpadminbar {
   min-height: 32px;
 }
 
-/* line 154, ../scss/responsive-styles/_xs.scss */
+/* line 158, ../scss/responsive-styles/_xs.scss */
 #logo {
   width: 100%;
   margin: auto;
 }
 
-/* line 158, ../scss/responsive-styles/_xs.scss */
+/* line 162, ../scss/responsive-styles/_xs.scss */
 #banner {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 164, ../scss/responsive-styles/_xs.scss */
+/* line 168, ../scss/responsive-styles/_xs.scss */
 #banner .spacer {
   padding-top: 26%;
 }
@@ -5102,11 +5102,11 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 178, ../scss/responsive-styles/_xs.scss */
+/* line 182, ../scss/responsive-styles/_xs.scss */
 #content {
   margin: 2em 0;
 }
-/* line 181, ../scss/responsive-styles/_xs.scss */
+/* line 185, ../scss/responsive-styles/_xs.scss */
 #content #inner-content {
   /* end .hentry */
   /* general title class */
@@ -5122,7 +5122,7 @@ POSTS & CONTENT STYLES
   /* post meta */
   /* entry content */
 }
-/* line 212, ../scss/responsive-styles/_xs.scss */
+/* line 216, ../scss/responsive-styles/_xs.scss */
 #content #inner-content .byline {
   color: #999;
   margin: -1em 0 1em;
@@ -5131,7 +5131,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVIGATION STYLES
 ******************************************************************/
-/* line 268, ../scss/responsive-styles/_xs.scss */
+/* line 272, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi {
   margin: 1em 0;
   /* current page link */
@@ -5143,12 +5143,12 @@ PAGE NAVIGATION STYLES
   /* first page link */
   /* last page link */
 }
-/* line 271, ../scss/responsive-styles/_xs.scss */
+/* line 275, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li {
   float: left;
   margin: 0;
 }
-/* line 275, ../scss/responsive-styles/_xs.scss */
+/* line 279, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a {
   display: block;
   color: #333;
@@ -5156,43 +5156,43 @@ PAGE NAVIGATION STYLES
   padding: 3px 10px;
   position: relative;
 }
-/* line 283, ../scss/responsive-styles/_xs.scss */
+/* line 287, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a:hover, .bouquets_boutonnieres_more_page_navi li a:focus {
   color: #008cba;
   text-decoration: underline;
 }
-/* line 292, ../scss/responsive-styles/_xs.scss */
+/* line 296, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current {
   background-color: #f5f5f5;
   color: #008cba;
   padding: 3px 10px;
   position: relative;
 }
-/* line 298, ../scss/responsive-styles/_xs.scss */
+/* line 302, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 301, ../scss/responsive-styles/_xs.scss */
+/* line 305, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-current a:focus {
   color: #333;
 }
-/* line 311, ../scss/responsive-styles/_xs.scss */
+/* line 315, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 314, ../scss/responsive-styles/_xs.scss */
+/* line 318, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a {
   color: #008cba;
 }
-/* line 318, ../scss/responsive-styles/_xs.scss */
+/* line 322, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:focus,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:focus {
   color: #333;
 }
-/* line 328, ../scss/responsive-styles/_xs.scss */
+/* line 332, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-first-page-link a:hover,
@@ -5202,11 +5202,11 @@ PAGE NAVIGATION STYLES
 
 /* end .bouquets_boutonnieres_more_page_navi */
 /* fallback previous & next links */
-/* line 371, ../scss/responsive-styles/_xs.scss */
+/* line 375, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 375, ../scss/responsive-styles/_xs.scss */
+/* line 379, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -5506,32 +5506,32 @@ COMMENTS STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 392, ../scss/responsive-styles/_xs.scss */
+/* line 396, ../scss/responsive-styles/_xs.scss */
 .sidebar {
   margin-top: 2em;
 }
 
-/* line 396, ../scss/responsive-styles/_xs.scss */
+/* line 400, ../scss/responsive-styles/_xs.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 401, ../scss/responsive-styles/_xs.scss */
+/* line 405, ../scss/responsive-styles/_xs.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 405, ../scss/responsive-styles/_xs.scss */
+/* line 409, ../scss/responsive-styles/_xs.scss */
 .widget.first-widget {
   margin: 0 0 2.2em;
 }
-/* line 410, ../scss/responsive-styles/_xs.scss */
+/* line 414, ../scss/responsive-styles/_xs.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 418, ../scss/responsive-styles/_xs.scss */
+/* line 422, ../scss/responsive-styles/_xs.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -5551,7 +5551,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 518, ../scss/responsive-styles/_xs.scss */
+/* line 522, ../scss/responsive-styles/_xs.scss */
 #social {
   list-style: none;
   list-style-type: none;
@@ -5559,65 +5559,65 @@ FOOTER STYLES
   text-align: center;
 }
 
-/* line 525, ../scss/responsive-styles/_xs.scss */
+/* line 529, ../scss/responsive-styles/_xs.scss */
 #social li {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 530, ../scss/responsive-styles/_xs.scss */
+/* line 534, ../scss/responsive-styles/_xs.scss */
 #social li a {
   color: #000;
 }
-/* line 532, ../scss/responsive-styles/_xs.scss */
+/* line 536, ../scss/responsive-styles/_xs.scss */
 #social li a:hover {
   color: #e2bf47;
 }
 
-/* line 537, ../scss/responsive-styles/_xs.scss */
+/* line 541, ../scss/responsive-styles/_xs.scss */
 #social li a img {
   width: 1.2em;
   float: bottom;
 }
 
-/* line 542, ../scss/responsive-styles/_xs.scss */
+/* line 546, ../scss/responsive-styles/_xs.scss */
 #colophon {
   clear: both;
   padding: 0;
 }
 
-/* line 547, ../scss/responsive-styles/_xs.scss */
+/* line 551, ../scss/responsive-styles/_xs.scss */
 #inner-footer hr {
   margin: 0;
 }
 
-/* line 551, ../scss/responsive-styles/_xs.scss */
+/* line 555, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu {
   display: inline-block;
   text-align: right;
   margin: 0;
   padding: 0;
 }
-/* line 557, ../scss/responsive-styles/_xs.scss */
+/* line 561, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li {
   display: inline-block;
   margin: 0 0 0 -4px;
   padding: 0;
 }
-/* line 562, ../scss/responsive-styles/_xs.scss */
+/* line 566, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li a {
   border-left: 1px solid #ccc;
   color: #999;
   line-height: normal;
   padding: 0 1em;
 }
-/* line 569, ../scss/responsive-styles/_xs.scss */
+/* line 573, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li:first-child a {
   border-left: none;
 }
 
 /* end .footer-menu */
-/* line 577, ../scss/responsive-styles/_xs.scss */
+/* line 581, ../scss/responsive-styles/_xs.scss */
 #back-top {
   position: fixed;
   bottom: 10px;
@@ -5625,7 +5625,7 @@ ul.footer-menu li:first-child a {
   right: 0;
   z-index: 9999;
 }
-/* line 584, ../scss/responsive-styles/_xs.scss */
+/* line 588, ../scss/responsive-styles/_xs.scss */
 #back-top a {
   width: 40px;
   display: block;
@@ -5644,12 +5644,12 @@ ul.footer-menu li:first-child a {
   -o-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 593, ../scss/responsive-styles/_xs.scss */
+/* line 597, ../scss/responsive-styles/_xs.scss */
 #back-top a:hover, #back-top a:focus {
   color: #000;
   opacity: 1;
 }
-/* line 599, ../scss/responsive-styles/_xs.scss */
+/* line 603, ../scss/responsive-styles/_xs.scss */
 #back-top i {
   width: 40px;
   height: 40px;
@@ -5722,6 +5722,21 @@ Here you can begin to add more resource-intensive styles.
   .dwd-speaker {
     margin-left: 60%;
   }
+
+  /*********************
+  RESPONSIVE FORM STYLES
+  *********************/
+  /* line 64, ../scss/responsive-styles/_sm.scss */
+  div#ninja_forms_form_1_cont {
+    width: 600px;
+    margin: auto;
+    display: block;
+  }
+
+  /* line 70, ../scss/responsive-styles/_sm.scss */
+  #ninja_forms_field_5 {
+    margin: auto;
+  }
 }
 /*
 DESKTOP
@@ -5757,6 +5772,24 @@ DESKTOP
   /* line 27, ../scss/responsive-styles/_md.scss */
   #logo {
     max-width: 80%;
+  }
+
+  /* line 31, ../scss/responsive-styles/_md.scss */
+  .hide-sm {
+    display: block;
+  }
+
+  /*********************
+  RESPONSIVE FORM STYLES
+  *********************/
+  /* line 39, ../scss/responsive-styles/_md.scss */
+  div#ninja_forms_form_1_cont {
+    width: 600px;
+  }
+
+  /* line 43, ../scss/responsive-styles/_md.scss */
+  #ninja_forms_field_29_div_wrap {
+    margin-top: 5px;
   }
 }
 /*
