@@ -125,6 +125,10 @@ body {
     display: none;
 }
 
+#dwd-services li.hide-sm {
+    display: none;
+}
+
 .center-block {
     margin: 0 auto;
 }
@@ -537,9 +541,9 @@ FOOTER STYLES
 
 #social li a {
     color: #000;
-    &:hover {
+    /*&:hover {
         color: $dwd-gold;
-    }
+    }*/
 }
 
 #social li a img {

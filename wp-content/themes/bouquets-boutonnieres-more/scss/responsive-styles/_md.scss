@@ -25,7 +25,7 @@ be seen on the Desktop.
 }
 
 #logo {
-    max-width: 80%;
+    max-width: 820px;
 }
 
 .hide-sm {
@@ -41,6 +41,7 @@ be seen on the Desktop.
 #colophon {
 	display: block;
 	margin: auto;
+	//max-width: 900px;
 }
 
 .service-desc {
@@ -54,6 +55,20 @@ be seen on the Desktop.
 	display: block;
 	margin: auto;
 	padding-bottom:25px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+#dwd-services li.hide-sm {
+    display: inline-block;
+    margin: auto 5px;
+}
+
+#dwd-services li.hide-sm + li {
+    margin: auto 5px;
 }
 
 /*********************

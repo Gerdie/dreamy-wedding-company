@@ -55,9 +55,13 @@ Description: Page template with Services menu
 			<div>
 			    <ul id="dwd-services">
 			        <li><a href="http://localhost:8888/dreamy-wedding-company/bouquets/">Bouquets</a></li>
+			        <li class="hide-sm">&bull;</li>
 			        <li><a href="http://localhost:8888/dreamy-wedding-company/boutonnieres/">Boutonnieres</a></li>
+			        <li class="hide-sm">&bull;</li>
 			        <li><a href="http://localhost:8888/dreamy-wedding-company/ceremony/">Ceremony</a></li>
+			        <li class="hide-sm">&bull;</li>
 			        <li><a href="http://localhost:8888/dreamy-wedding-company/reception/">Reception</a></li>
+			        <li class="hide-sm">&bull;</li>
 			        <li><a href="http://localhost:8888/dreamy-wedding-company/more/">More!</a></li>
 			    </ul>
 			</div>

@@ -317,6 +317,7 @@ DESKTOP
 */
 @media only screen and (min-width: $screen-md-min) {}
 
+
 /*
 FULL VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
@@ -324,7 +325,7 @@ This is for the larger monitors and possibly full screen viewers.
 @media only screen and (min-width: $screen-lg-min) {
 
 	#main-navigation {
-
+        
 	    ul.menu {
 
 			li {
