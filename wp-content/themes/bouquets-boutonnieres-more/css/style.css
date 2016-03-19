@@ -5049,22 +5049,27 @@ body #container {
   display: none;
 }
 
+/* line 128, ../scss/responsive-styles/_xs.scss */
+.center-block {
+  margin: 0 auto;
+}
+
 /*********************
 CUSTOM FIELD STYLES
 *********************/
-/* line 132, ../scss/responsive-styles/_xs.scss */
+/* line 136, ../scss/responsive-styles/_xs.scss */
 .dwd-speaker {
   font-family: "Parisienne", cursive;
   font-size: 16px;
 }
 
-/* line 139, ../scss/responsive-styles/_xs.scss */
+/* line 143, ../scss/responsive-styles/_xs.scss */
 #huge_it_gallery_content_1 div.paginate4 {
   color: #000 !important;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px !important;
 }
-/* line 144, ../scss/responsive-styles/_xs.scss */
+/* line 148, ../scss/responsive-styles/_xs.scss */
 #huge_it_gallery_content_1 div.paginate4 .icon-style4 {
   color: #000 !important;
 }
@@ -5073,24 +5078,24 @@ CUSTOM FIELD STYLES
 HEADER SYTLES
 *********************/
 /* Ensure that there is no gap between the header and the admin bar for WordPress versions before 3.8. */
-/* line 155, ../scss/responsive-styles/_xs.scss */
+/* line 159, ../scss/responsive-styles/_xs.scss */
 #wpadminbar {
   min-height: 32px;
 }
 
-/* line 158, ../scss/responsive-styles/_xs.scss */
+/* line 162, ../scss/responsive-styles/_xs.scss */
 #logo {
   width: 100%;
   margin: auto;
 }
 
-/* line 162, ../scss/responsive-styles/_xs.scss */
+/* line 166, ../scss/responsive-styles/_xs.scss */
 #banner {
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 168, ../scss/responsive-styles/_xs.scss */
+/* line 172, ../scss/responsive-styles/_xs.scss */
 #banner .spacer {
   padding-top: 26%;
 }
@@ -5102,11 +5107,11 @@ NAVIGATION STYLES
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 182, ../scss/responsive-styles/_xs.scss */
+/* line 186, ../scss/responsive-styles/_xs.scss */
 #content {
   margin: 2em 0;
 }
-/* line 185, ../scss/responsive-styles/_xs.scss */
+/* line 189, ../scss/responsive-styles/_xs.scss */
 #content #inner-content {
   /* end .hentry */
   /* general title class */
@@ -5122,7 +5127,7 @@ POSTS & CONTENT STYLES
   /* post meta */
   /* entry content */
 }
-/* line 216, ../scss/responsive-styles/_xs.scss */
+/* line 220, ../scss/responsive-styles/_xs.scss */
 #content #inner-content .byline {
   color: #999;
   margin: -1em 0 1em;
@@ -5131,7 +5136,7 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVIGATION STYLES
 ******************************************************************/
-/* line 272, ../scss/responsive-styles/_xs.scss */
+/* line 276, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi {
   margin: 1em 0;
   /* current page link */
@@ -5143,12 +5148,12 @@ PAGE NAVIGATION STYLES
   /* first page link */
   /* last page link */
 }
-/* line 275, ../scss/responsive-styles/_xs.scss */
+/* line 279, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li {
   float: left;
   margin: 0;
 }
-/* line 279, ../scss/responsive-styles/_xs.scss */
+/* line 283, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a {
   display: block;
   color: #333;
@@ -5156,43 +5161,43 @@ PAGE NAVIGATION STYLES
   padding: 3px 10px;
   position: relative;
 }
-/* line 287, ../scss/responsive-styles/_xs.scss */
+/* line 291, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li a:hover, .bouquets_boutonnieres_more_page_navi li a:focus {
   color: #008cba;
   text-decoration: underline;
 }
-/* line 296, ../scss/responsive-styles/_xs.scss */
+/* line 300, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current {
   background-color: #f5f5f5;
   color: #008cba;
   padding: 3px 10px;
   position: relative;
 }
-/* line 302, ../scss/responsive-styles/_xs.scss */
+/* line 306, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a {
   /* hovering on current page link */
 }
-/* line 305, ../scss/responsive-styles/_xs.scss */
+/* line 309, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-current a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-current a:focus {
   color: #333;
 }
-/* line 315, ../scss/responsive-styles/_xs.scss */
+/* line 319, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link {
   font-weight: 700;
 }
-/* line 318, ../scss/responsive-styles/_xs.scss */
+/* line 322, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a {
   color: #008cba;
 }
-/* line 322, ../scss/responsive-styles/_xs.scss */
+/* line 326, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover, .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:focus,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:focus {
   color: #333;
 }
-/* line 332, ../scss/responsive-styles/_xs.scss */
+/* line 336, ../scss/responsive-styles/_xs.scss */
 .bouquets_boutonnieres_more_page_navi li.bpn-prev-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-next-link a:hover,
 .bouquets_boutonnieres_more_page_navi li.bpn-first-page-link a:hover,
@@ -5202,11 +5207,11 @@ PAGE NAVIGATION STYLES
 
 /* end .bouquets_boutonnieres_more_page_navi */
 /* fallback previous & next links */
-/* line 375, ../scss/responsive-styles/_xs.scss */
+/* line 379, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 379, ../scss/responsive-styles/_xs.scss */
+/* line 383, ../scss/responsive-styles/_xs.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -5506,32 +5511,32 @@ COMMENTS STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 396, ../scss/responsive-styles/_xs.scss */
+/* line 400, ../scss/responsive-styles/_xs.scss */
 .sidebar {
   margin-top: 2em;
 }
 
-/* line 400, ../scss/responsive-styles/_xs.scss */
+/* line 404, ../scss/responsive-styles/_xs.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 405, ../scss/responsive-styles/_xs.scss */
+/* line 409, ../scss/responsive-styles/_xs.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 409, ../scss/responsive-styles/_xs.scss */
+/* line 413, ../scss/responsive-styles/_xs.scss */
 .widget.first-widget {
   margin: 0 0 2.2em;
 }
-/* line 414, ../scss/responsive-styles/_xs.scss */
+/* line 418, ../scss/responsive-styles/_xs.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 422, ../scss/responsive-styles/_xs.scss */
+/* line 426, ../scss/responsive-styles/_xs.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -5551,7 +5556,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 522, ../scss/responsive-styles/_xs.scss */
+/* line 526, ../scss/responsive-styles/_xs.scss */
 #social {
   list-style: none;
   list-style-type: none;
@@ -5559,65 +5564,65 @@ FOOTER STYLES
   text-align: center;
 }
 
-/* line 529, ../scss/responsive-styles/_xs.scss */
+/* line 533, ../scss/responsive-styles/_xs.scss */
 #social li {
   display: inline-block;
   vertical-align: top;
 }
 
-/* line 534, ../scss/responsive-styles/_xs.scss */
+/* line 538, ../scss/responsive-styles/_xs.scss */
 #social li a {
   color: #000;
 }
-/* line 536, ../scss/responsive-styles/_xs.scss */
+/* line 540, ../scss/responsive-styles/_xs.scss */
 #social li a:hover {
   color: #e2bf47;
 }
 
-/* line 541, ../scss/responsive-styles/_xs.scss */
+/* line 545, ../scss/responsive-styles/_xs.scss */
 #social li a img {
   width: 1.2em;
   float: bottom;
 }
 
-/* line 546, ../scss/responsive-styles/_xs.scss */
+/* line 550, ../scss/responsive-styles/_xs.scss */
 #colophon {
   clear: both;
   padding: 0;
 }
 
-/* line 551, ../scss/responsive-styles/_xs.scss */
+/* line 555, ../scss/responsive-styles/_xs.scss */
 #inner-footer hr {
   margin: 0;
 }
 
-/* line 555, ../scss/responsive-styles/_xs.scss */
+/* line 559, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu {
   display: inline-block;
   text-align: right;
   margin: 0;
   padding: 0;
 }
-/* line 561, ../scss/responsive-styles/_xs.scss */
+/* line 565, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li {
   display: inline-block;
   margin: 0 0 0 -4px;
   padding: 0;
 }
-/* line 566, ../scss/responsive-styles/_xs.scss */
+/* line 570, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li a {
   border-left: 1px solid #ccc;
   color: #999;
   line-height: normal;
   padding: 0 1em;
 }
-/* line 573, ../scss/responsive-styles/_xs.scss */
+/* line 577, ../scss/responsive-styles/_xs.scss */
 ul.footer-menu li:first-child a {
   border-left: none;
 }
 
 /* end .footer-menu */
-/* line 581, ../scss/responsive-styles/_xs.scss */
+/* line 585, ../scss/responsive-styles/_xs.scss */
 #back-top {
   position: fixed;
   bottom: 10px;
@@ -5625,7 +5630,7 @@ ul.footer-menu li:first-child a {
   right: 0;
   z-index: 9999;
 }
-/* line 588, ../scss/responsive-styles/_xs.scss */
+/* line 592, ../scss/responsive-styles/_xs.scss */
 #back-top a {
   width: 40px;
   display: block;
@@ -5644,12 +5649,12 @@ ul.footer-menu li:first-child a {
   -o-border-radius: 500px;
   border-radius: 500px;
 }
-/* line 597, ../scss/responsive-styles/_xs.scss */
+/* line 601, ../scss/responsive-styles/_xs.scss */
 #back-top a:hover, #back-top a:focus {
   color: #000;
   opacity: 1;
 }
-/* line 603, ../scss/responsive-styles/_xs.scss */
+/* line 607, ../scss/responsive-styles/_xs.scss */
 #back-top i {
   width: 40px;
   height: 40px;
@@ -5723,17 +5728,24 @@ Here you can begin to add more resource-intensive styles.
     margin-left: 60%;
   }
 
+  /* line 60, ../scss/responsive-styles/_sm.scss */
+  .dwd-weddingparty {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+
   /*********************
   RESPONSIVE FORM STYLES
   *********************/
-  /* line 64, ../scss/responsive-styles/_sm.scss */
+  /* line 70, ../scss/responsive-styles/_sm.scss */
   div#ninja_forms_form_1_cont {
     width: 600px;
     margin: auto;
     display: block;
   }
 
-  /* line 70, ../scss/responsive-styles/_sm.scss */
+  /* line 76, ../scss/responsive-styles/_sm.scss */
   #ninja_forms_field_5 {
     margin: auto;
   }
@@ -5779,15 +5791,43 @@ DESKTOP
     display: block;
   }
 
+  /* line 35, ../scss/responsive-styles/_md.scss */
+  .hp-mid {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+  }
+
+  /* line 41, ../scss/responsive-styles/_md.scss */
+  #colophon {
+    display: block;
+    margin: auto;
+  }
+
+  /* line 46, ../scss/responsive-styles/_md.scss */
+  .service-desc {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+  }
+
+  /* line 52, ../scss/responsive-styles/_md.scss */
+  .fof-desc {
+    max-width: 800px;
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+
   /*********************
   RESPONSIVE FORM STYLES
   *********************/
-  /* line 39, ../scss/responsive-styles/_md.scss */
+  /* line 63, ../scss/responsive-styles/_md.scss */
   div#ninja_forms_form_1_cont {
     width: 600px;
   }
 
-  /* line 43, ../scss/responsive-styles/_md.scss */
+  /* line 67, ../scss/responsive-styles/_md.scss */
   #ninja_forms_field_29_div_wrap {
     margin-top: 5px;
   }

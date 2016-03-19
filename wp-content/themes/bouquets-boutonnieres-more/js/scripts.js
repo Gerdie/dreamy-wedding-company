@@ -184,6 +184,8 @@ jQuery(document).ready(function($) {
         }
     });
 	
+	//Equalize header & footer size
+	
 	//ChosenJs Select Input - https://github.com/harvesthq/chosen for more info
 	$("select").chosen({no_results_text: "Oops, nothing found!", width: "99.5%"});
 

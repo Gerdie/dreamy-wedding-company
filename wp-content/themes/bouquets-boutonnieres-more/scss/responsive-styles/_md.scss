@@ -29,7 +29,31 @@ be seen on the Desktop.
 }
 
 .hide-sm {
+    display: block; //hide fp elements in sm/xs sizes
+}
+
+.hp-mid { //center & smallify Who We Are section on homepage
+    max-width: 80%;
     display: block;
+    margin: auto;
+}
+
+#colophon {
+	display: block;
+	margin: auto;
+}
+
+.service-desc {
+	max-width: 800px;
+	display: block;
+	margin: auto;
+}
+
+.fof-desc {
+	max-width: 800px;
+	display: block;
+	margin: auto;
+	padding-bottom:25px;
 }
 
 /*********************

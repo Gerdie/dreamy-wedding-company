@@ -49,10 +49,10 @@
 						</div>
 						
 						<hr>
+						
+						<div class="hp-mid">
 
 						<h1 class="dwd-who">Who We Are</h1>
-
-						
 
 						<section class="entry-content clearfix">
 							<?php the_content(); ?>
@@ -65,6 +65,8 @@
 						</section>
 						
 						<div class="dwd-button">CONTACT US</div>
+						
+						</div>
 
 						<footer class="article-footer">
 

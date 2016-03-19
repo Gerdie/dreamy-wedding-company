@@ -10,9 +10,11 @@ get_header(); ?>
 					<h1 class="page-title"><?php _e( 'Sorry, this page has been moved!', 'test' ); ?></h1>
 				</header><!-- .page-header -->
 
+				<div class="fof-desc">
 				<div class="page-content">
 					<p><?php _e( 'But don\'t worry, we\'re still here. From your wedding ceremony, to cocktail hour and your reception, we\'re excited to make your decoration dreams come true!'); ?></p>
 
+				</div>
 				</div>
 			</section>
 			

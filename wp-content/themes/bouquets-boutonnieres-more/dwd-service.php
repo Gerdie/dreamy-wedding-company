@@ -18,7 +18,9 @@ Description: Page template with Services menu
 						</header> -->
 
 						<section class="entry-content clearfix">
+							<div class="service-desc">
 							<?php the_content(); ?>
+							</div>
 							<?php wp_link_pages( array(
 								'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'bouquets-boutonnieres-more' ) . '</span>',
 								'after'       => '</div>',
