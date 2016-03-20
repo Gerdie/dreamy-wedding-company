@@ -996,17 +996,17 @@ $paramssld["ht_blog_heart_likedislike_thumb_active_color"] = "E00000";
 				jQuery("#huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.jpg'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.jpeg'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.png'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.gif']").addClass('gallery_group<?php echo $galleryID; ?>');
 				
 				
-				jQuery(".gallery_group<?php echo $galleryID; ?>").colorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
-				jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-				jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-				jQuery(".inline").colorbox({inline:true, width:"50%"});
-				jQuery(".callbacks").colorbox({
-					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				jQuery(".gallery_group<?php echo $galleryID; ?>").gicolorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
+				jQuery(".youtube").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+				jQuery(".vimeo").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+				jQuery(".iframe").gicolorbox({iframe:true, width:"80%", height:"80%"});
+				jQuery(".inline").gicolorbox({inline:true, width:"50%"});
+				jQuery(".callbacks").gicolorbox({
+					onOpen:function(){ alert('onOpen: gicolorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: gicolorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: gicolorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: gicolorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: gicolorbox has completely closed'); }
 				});
                                 
                                 /******************Clone bug update***************************/
@@ -1020,16 +1020,16 @@ $paramssld["ht_blog_heart_likedislike_thumb_active_color"] = "E00000";
                                 });
                                 
                                 
-                                jQuery(".gallery_group"+i).colorbox({rel:'gallery_group'+i});
-                                //jQuery(".group1").colorbox({rel:'group1'});
+                                jQuery(".gallery_group"+i).gicolorbox({rel:'gallery_group'+i});
+                                //jQuery(".group1").gicolorbox({rel:'group1'});
                                 for(var i = 1; i <= group_count_slider; i++){                                    
-                                    jQuery(".gallery_group_"+groups+"_"+i).colorbox({rel:'gallery_group_'+groups+"_"+i});
+                                    jQuery(".gallery_group_"+groups+"_"+i).gicolorbox({rel:'gallery_group_'+groups+"_"+i});
                                     jQuery("#main-slider_<?php echo $galleryID; ?> .clone  a").removeClass();
                                 }
                                 /*************************************************************/
 
-				jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
-				jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				jQuery('.non-retina').gicolorbox({rel:'group5', transition:'none'})
+				jQuery('.retina').gicolorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
 				
 
 				jQuery("#click").click(function(){ 
@@ -1047,7 +1047,7 @@ $paramssld["ht_blog_heart_likedislike_thumb_active_color"] = "E00000";
 	<link href="<?php echo plugins_url('../style/colorbox-'.$paramssld['light_box_style'].'.css', __FILE__);?>" rel="stylesheet" type="text/css" />
 	<?php } ?>
 <!--	<link href="<?php // echo plugins_url('../style/gallery-all.css', __FILE__);?>" rel="stylesheet" type="text/css" />
-	<script src="<?php // echo plugins_url('../js/jquery.colorbox.js', __FILE__);?>"></script>
+	<script src="<?php // echo plugins_url('../js/jquery.gicolorbox.js', __FILE__);?>"></script>
 	<script src="<?php// echo plugins_url('../js/gallery-all.js', __FILE__);?>"></script>
 	<link rel="stylesheet" href="<?php echo plugins_url('../style/style2-os.css', __FILE__);?>" />
 	<script src="<?php// echo plugins_url('../js/jquery.hugeitmicro.min.js', __FILE__);?>"></script>
@@ -1506,7 +1506,6 @@ jQuery(document).ready(function(){
 
 
 #huge_it_gallery_popup_list_<?php echo $galleryID; ?> li.pupup-element .popup-wrapper_<?php echo $galleryID; ?> {
-	overflow-y:scroll;
 	position:relative;
 	width:96%;
 	height:98%;
@@ -1515,7 +1514,8 @@ jQuery(document).ready(function(){
 
 #huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .image-block_<?php echo $galleryID; ?> {
 	width:60%;
-	<?php if($paramssld['ht_view2_popup_full_width'] == 'off') { echo "height:100%;"; } ?>
+	<?php if($paramssld['ht_view2_popup_full_width'] == 'off') { echo "height:100%;"; }
+		else { echo "height:100%; overflow-y: scroll;"; } ?>
 	position:relative;
 	float:left;
 	margin-right:2%;
@@ -1540,6 +1540,8 @@ jQuery(document).ready(function(){
 }
 
 #huge_it_gallery_popup_list_<?php echo $galleryID; ?> .popup-wrapper_<?php echo $galleryID; ?> .right-block {
+	overflow-y: scroll;
+	height: 100%;
 	width:37%;
 	position:relative;
 	float:left;
@@ -4458,21 +4460,21 @@ switch ($like_dislike) {
 										jQuery("#huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.jpg'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.jpeg'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.png'], #huge_it_gallery_content_<?php echo $galleryID; ?> a[href$='.gif']").addClass('gallery_group<?php echo $galleryID; ?>');
 				
 				
-										jQuery(".gallery_group<?php echo $galleryID; ?>").colorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
-										jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-										jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-										jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-										jQuery(".inline").colorbox({inline:true, width:"50%"});
-										jQuery(".callbacks").colorbox({
-											onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-											onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-											onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-											onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-											onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+										jQuery(".gallery_group<?php echo $galleryID; ?>").gicolorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
+										jQuery(".youtube").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+										jQuery(".vimeo").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+										jQuery(".iframe").gicolorbox({iframe:true, width:"80%", height:"80%"});
+										jQuery(".inline").gicolorbox({inline:true, width:"50%"});
+										jQuery(".callbacks").gicolorbox({
+											onOpen:function(){ alert('onOpen: gicolorbox is about to open'); },
+											onLoad:function(){ alert('onLoad: gicolorbox has started to load the targeted content'); },
+											onComplete:function(){ alert('onComplete: gicolorbox has displayed the loaded content'); },
+											onCleanup:function(){ alert('onCleanup: gicolorbox has begun the close process'); },
+											onClosed:function(){ alert('onClosed: gicolorbox has completely closed'); }
 										});
 
-										jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
-										jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+										jQuery('.non-retina').gicolorbox({rel:'group5', transition:'none'})
+										jQuery('.retina').gicolorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
 										
 
 										jQuery("#click").click(function(){ 
@@ -7512,21 +7514,21 @@ jQuery(function(){
 										jQuery('#thumbwrapper<?=$idofgallery; ?> #huge_it_gallery img').on('load',function(){
 											
 											//alert('hi')
-											jQuery(".gallery_group<?php echo $galleryID; ?>").colorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
-											jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-											jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-											jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-											jQuery(".inline").colorbox({inline:true, width:"50%"});
-											jQuery(".callbacks").colorbox({
-												onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-												onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-												onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-												onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-												onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+											jQuery(".gallery_group<?php echo $galleryID; ?>").gicolorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
+											jQuery(".youtube").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".vimeo").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".iframe").gicolorbox({iframe:true, width:"80%", height:"80%"});
+											jQuery(".inline").gicolorbox({inline:true, width:"50%"});
+											jQuery(".callbacks").gicolorbox({
+												onOpen:function(){ alert('onOpen: gicolorbox is about to open'); },
+												onLoad:function(){ alert('onLoad: gicolorbox has started to load the targeted content'); },
+												onComplete:function(){ alert('onComplete: gicolorbox has displayed the loaded content'); },
+												onCleanup:function(){ alert('onCleanup: gicolorbox has begun the close process'); },
+												onClosed:function(){ alert('onClosed: gicolorbox has completely closed'); }
 											});
 
-											jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
-											jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+											jQuery('.non-retina').gicolorbox({rel:'group5', transition:'none'})
+											jQuery('.retina').gicolorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
 											jQuery('#thumbwrapper<?=$idofgallery; ?> .load_more_button3').show();
 											jQuery('#thumbwrapper<?=$idofgallery; ?> .loading3').hide();
 											
@@ -8511,21 +8513,21 @@ jQuery(function(){
 											jQuery("#mygallery_<?php echo $galleryID; ?>").justifiedGallery();
 										jQuery('#mygallery_<?php echo $galleryID; ?> img').on('load',function(){
 											
-											jQuery(".gallery_group<?php echo $galleryID; ?>").colorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
-											jQuery(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-											jQuery(".vimeo").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-											jQuery(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-											jQuery(".inline").colorbox({inline:true, width:"50%"});
-											jQuery(".callbacks").colorbox({
-												onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-												onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-												onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-												onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-												onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+											jQuery(".gallery_group<?php echo $galleryID; ?>").gicolorbox({rel:'gallery_group<?php echo $galleryID; ?>'});
+											jQuery(".youtube").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".vimeo").gicolorbox({iframe:true, innerWidth:640, innerHeight:390});
+											jQuery(".iframe").gicolorbox({iframe:true, width:"80%", height:"80%"});
+											jQuery(".inline").gicolorbox({inline:true, width:"50%"});
+											jQuery(".callbacks").gicolorbox({
+												onOpen:function(){ alert('onOpen: gicolorbox is about to open'); },
+												onLoad:function(){ alert('onLoad: gicolorbox has started to load the targeted content'); },
+												onComplete:function(){ alert('onComplete: gicolorbox has displayed the loaded content'); },
+												onCleanup:function(){ alert('onCleanup: gicolorbox has begun the close process'); },
+												onClosed:function(){ alert('onClosed: gicolorbox has completely closed'); }
 											});
 
-											jQuery('.non-retina').colorbox({rel:'group5', transition:'none'})
-											jQuery('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+											jQuery('.non-retina').gicolorbox({rel:'group5', transition:'none'})
+											jQuery('.retina').gicolorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
 											jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .load_more_button_<?php echo $galleryID; ?>').show();
 											jQuery('#mygallery_wrapper_<?php echo $galleryID; ?> .loading_<?php echo $galleryID; ?>').hide();
 											

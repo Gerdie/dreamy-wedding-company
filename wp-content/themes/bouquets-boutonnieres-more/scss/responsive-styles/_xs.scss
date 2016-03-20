@@ -76,6 +76,19 @@ body {
 #dwd-fp-5,
 #dwd-fp-6 {
     position:relative;
+    width:300px;
+}
+
+#dwd-fp-1-m,
+#dwd-fp-2-m,
+#dwd-fp-3-m,
+#dwd-fp-4-m,
+#dwd-fp-5-m,
+#dwd-fp-6-m {
+    position:relative;
+    margin: auto;
+    padding-bottom: 5px;
+    display: block;
 }
 
 #dwd-fp-1-0,
@@ -83,42 +96,13 @@ body {
 #dwd-fp-3-0,
 #dwd-fp-4-0,
 #dwd-fp-6-0 {
-    font-family: $slabo;
-    font-size: 40px;
-    color: #FFF;
     position: absolute;
-    top:24%;
     display: none;
 }
 
-#dwd-fp-1-0 {
-    left: 45px;
-}
-
-#dwd-fp-2-0 {
-    left: 80px;    
-}
-
-#dwd-fp-3-0 {
-    left: 80px;    
-}
-
-#dwd-fp-4-0 {
-    left: 80px;    
-}
-
 #dwd-fp-5-0 {
-    left: 125px; 
-    font-size: 80px;
-    top: 5%;
-    font-family: $slabo;
-    color: #FFF;
     position: absolute;
     display: none;   
-}
-
-#dwd-fp-6-0 {
-    left: 110px;    
 }
 
 .hide-sm {
@@ -147,6 +131,7 @@ CUSTOM FIELD STYLES
     div.paginate4 {
         color: #000 !important;
         font-family: $sans;
+        font-weight: bold;
         font-size: 14px !important;
         
         .icon-style4 {
@@ -154,6 +139,16 @@ CUSTOM FIELD STYLES
         }
     }
 }
+
+/*
+div#ninja_forms_form_1_cont .ninja-forms-success-msg:after {
+    content: url('http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/weddingparty.jpg');
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    max-width: 800px;
+}
+*/
 
 /*********************
 HEADER SYTLES
@@ -273,6 +268,15 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVIGATION STYLES
 ******************************************************************/
+
+[class*="hugeiticons-"],
+i.icon-style4.hugeiticons-chevron-right,
+i.icon-style4.hugeiticons-chevron-left,
+i.icon-style4.hugeiticons-fast-forward,
+i.icon-style4.hugeiticons-fast-backward,
+div.paginate4 {
+    font-size: 13px !important;
+}
 
 .page-navigation,
 .wp-prev-next {}

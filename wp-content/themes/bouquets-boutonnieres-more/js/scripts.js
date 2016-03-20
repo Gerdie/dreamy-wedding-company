@@ -56,7 +56,18 @@ function getScrollBarWidth () {
 
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
-
+    
+    //Responsive frontpage tiles
+	
+	if ($(window).width() >= 768) {
+	    $('#dwd-fp-6-m').attr('id', 'dwd-fp-6');
+	    $('#dwd-fp-5-m').attr('id', 'dwd-fp-5');
+	    $('#dwd-fp-4-m').attr('id', 'dwd-fp-4');
+	    $('#dwd-fp-3-m').attr('id', 'dwd-fp-3');
+	    $('#dwd-fp-2-m').attr('id', 'dwd-fp-2');
+	    $('#dwd-fp-1-m').attr('id', 'dwd-fp-1');
+	};
+    
 	//Frontpage Hover
 	$('#dwd-fp-1').on({
         'mouseenter': function(){
@@ -184,7 +195,11 @@ jQuery(document).ready(function($) {
         }
     });
 	
-	//Equalize header & footer size
+	//Mobile services menu - fp
+	
+	if ($(window).width() > 768) {
+	    $('#dwd-services-hp').remove();
+	};
 	
 	//ChosenJs Select Input - https://github.com/harvesthq/chosen for more info
 	$("select").chosen({no_results_text: "Oops, nothing found!", width: "99.5%"});

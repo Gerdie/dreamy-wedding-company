@@ -4,7 +4,7 @@ Donate link: http://huge-it.com/wordpress-gallery/
 Tags: gallery, image gallery, gallery image, content slider, widget gallery, sortable gallery, lightbox gallery, website gallery, gallery lightbox, galleries, wordpress gallery, photo gallery, gallery, best gallery, content gallery, media gallery, gallery plugin, wordpress photo gallery plugin, plugin gallery, add gallery, add image, add picture, add photo, portfolio, add images, add pictures, wp gallery, gallery slider, responsive wordpress photo gallery, Galleria, simple gallery, wordpress gallery plugin, free gallery, video gallery, wp gallery plugin, youtube gallery, photo albums, grid gallery, images gallery, filterable gallery, grid, photogallery, photoset, fullscreen gallery, justified, fullscreen slider, gallery shortcode, free photo gallery, best gallery plugin, photo album, image rotator, banner rotator, album, image album, wp gallery plugins, image gallery plugin, image slider, slideshow, slide, slideshow gallery, responsive gallery, gallery, multiple pictures, fotoalbum, photoalbum, justified gallery, pictures, picture, thumbnail gallery, slide show, responsive slideshow, gallery decription, thumbnails, image slideshow,
 Requires at least: 3.0.1
 Tested up to: 4.4.2
-Stable tag: 1.8.6
+Stable tag: 1.8.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -248,19 +248,19 @@ Using Image Gallery with Blog Style Gallery views is the simplest and most under
 
 > #### Image Gallery Demos
 >
->[Gallery /Content Popup](http://huge-it.com/wordpress-plugins-gallery-demo/)
+>[Gallery /Content Popup](http://huge-it.com/wordpress-plugins-gallery-demo/#plugin_demo_wrapper)
 >
->[Gallery Content Slider](http://huge-it.com/wordpress-gallery-demo-2-content-slider/)
+>[Gallery Content Slider](http://huge-it.com/wordpress-gallery-demo-2-content-slider/#plugin_demo_wrapper)
 >
->[Lightbox Gallery](http://huge-it.com/wordpress-gallery-demo-3-lightbox-gallery/)
+>[Lightbox Gallery](http://huge-it.com/wordpress-gallery-demo-3-lightbox-gallery/#plugin_demo_wrapper)
 >
->[Slider](http://huge-it.com/wordpress-gallery-demo-4-slideshow/)
+>[Slider](http://huge-it.com/wordpress-gallery-demo-4-slideshow/#plugin_demo_wrapper)
 >
->[Thumbnails Gallery](http://huge-it.com/wordpress-gallery-demo-5-thumbnails/)
+>[Thumbnails Gallery](http://huge-it.com/wordpress-gallery-demo-5-thumbnails/#plugin_demo_wrapper)
 >
->[Justified Gallery](http://huge-it.com/wordpress-gallery-demo-6-justified-gallery/)
+>[Justified Gallery](http://huge-it.com/wordpress-gallery-demo-6-justified-gallery/#plugin_demo_wrapper)
 >
->[Blog Style Gallery](http://huge-it.com/wordpress-gallery-demo-7-blog-style-view/)
+>[Blog Style Gallery](http://huge-it.com/wordpress-gallery-demo-7-blog-style-view/#plugin_demo_wrapper)
 
 > #### Image Gallery FAQ & User Manual
 >
@@ -476,6 +476,9 @@ Go to Plugins page, add the new plugin, upload plugin image gallery, and Install
 If you think, that you found a bug in our [WordPress Image Gallery](http://huge-it.com/wordpress-gallery/) plugin or have any question contact us at [info@huge-it.com](mailto:info@huge-it.com).
 
 == Changelog ==
+
+= 1.8.7 =
+*  Bug fixed in image gallery.
 
 = 1.8.6 =
 *  Bug fixed in image gallery.

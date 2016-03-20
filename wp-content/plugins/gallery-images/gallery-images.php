@@ -4,7 +4,7 @@
 Plugin Name: Huge IT Image Gallery
 Plugin URI: http://huge-it.com/wordpress-gallery/
 Description: Huge-IT Image Gallery is the best plugin to use if you want to be original with your website.
-Version: 1.8.6
+Version: 1.8.7
 Author: Huge-IT
 Author: http://huge-it.com/
 License: GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -1062,8 +1062,8 @@ function all_frontend_scripts_and_styles() {
         wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', __FILE__ ); 
         wp_enqueue_script('jquery');
     }
-    wp_register_script( 'jquery.colorbox-js', plugins_url('/js/jquery.colorbox.js', __FILE__), array('jquery'),'1.0.0',true  ); 
-    wp_enqueue_script( 'jquery.colorbox-js' );
+    wp_register_script( 'jquery.gicolorbox-js', plugins_url('/js/jquery.colorbox.js', __FILE__), array('jquery'),'1.0.0',true  ); 
+    wp_enqueue_script( 'jquery.gicolorbox-js' );
     wp_register_script( 'gallery-hugeitmicro-min-js', plugins_url('/js/jquery.hugeitmicro.min.js', __FILE__), array('jquery'),'1.0.0',true  ); 
     wp_enqueue_script( 'gallery-hugeitmicro-min-js' );
     wp_register_style( 'gallery-all-css', plugins_url('/style/gallery-all.css', __FILE__) );   
