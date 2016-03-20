@@ -59,6 +59,12 @@ FRONTPAGE TILES
     left: 110px;    
 }
 
+.dwd-button a {
+    &:hover {
+        text-decoration:none;
+    }
+}
+
 /*********************
 STICKY FOOTER STYLES
 *********************/

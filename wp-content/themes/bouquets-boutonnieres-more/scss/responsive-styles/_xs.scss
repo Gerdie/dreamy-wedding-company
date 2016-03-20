@@ -65,6 +65,15 @@ body {
     }
 }
 
+.dwd-button a {
+    font-family: $slabo;
+    color: #FFF;
+    
+    &:hover {
+        color: #FFF;
+    }
+}
+
 .page-title {
     text-align: center;
 }

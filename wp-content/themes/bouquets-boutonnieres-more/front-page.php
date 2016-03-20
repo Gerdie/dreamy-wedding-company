@@ -78,7 +78,7 @@
 							) ); ?>
 						</section>
 						
-						<div class="dwd-button">CONTACT US</div>
+						<div class="dwd-button"><a href="http://localhost:8888/dreamy-wedding-company/contact/">CONTACT US</a></div>
 						
 						</div>
 
