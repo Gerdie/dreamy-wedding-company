@@ -205,12 +205,15 @@ jQuery(document).ready(function($) {
 	$("select").chosen({no_results_text: "Oops, nothing found!", width: "99.5%"});
 
 	//Lightbox - http://dimsemenov.com/plugins/magnific-popup/
+	
+	/*
 	if($.fn.magnificPopup) {
 		$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').magnificPopup({
 			type: 'image'
 		});
 	}
-
+    */
+    
 	//iCheck - http://fronteed.com/iCheck/
 	
 	if($.fn.iCheck) {
