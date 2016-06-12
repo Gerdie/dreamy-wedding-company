@@ -159,24 +159,25 @@ input[type=button] {
 	color: #e2bf47 !important;
 }
 
+/*
 #ninja_forms_field_22_div_wrap {
 	background:none;
-}
+} */
 
-#ninja_forms_field_19_div_wrap {
+#ninja_forms_field_10_div_wrap { //centerpieces changed to PROD
     margin-bottom: 0px;
 }
 
-#ninja_forms_field_3_label {    //comments box
+#ninja_forms_field_17_label {    //comments box changed to PROD
     font-family: 'Parisienne', cursive;
     font-size: 22px;
 }
 
-#ninja_forms_field_24_label {    //bridal party flowers
+#ninja_forms_field_13_label {    //bridal party flowers changed to PROD
     padding-bottom: 5px;
 }
 
-#ninja_forms_field_5 {  //submit button
+#ninja_forms_field_4 {  //submit button changed to PROD
     font-family: $slabo;
     background-color: $dwd-gold;
     letter-spacing: 1px;
@@ -191,13 +192,13 @@ input[type=button] {
     }
 }
 
-#ninja_forms_field_1, //textboxes
-#ninja_forms_field_2,
-#ninja_forms_field_13,
-#ninja_forms_field_21,
-#ninja_forms_field_26,
-#ninja_forms_field_27,
-#ninja_forms_field_28 {
+#ninja_forms_field_1, //textboxes name
+#ninja_forms_field_2, //email
+#ninja_forms_field_5, //date
+#ninja_forms_field_12, //how many centerpieces
+#ninja_forms_field_14, //how many bridesmaid
+#ninja_forms_field_15, //how many boutonnieres
+#ninja_forms_field_16 { //how many corsages
     background-color: #e5e5e7;
 }
 

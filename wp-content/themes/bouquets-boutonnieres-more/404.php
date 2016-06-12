@@ -18,7 +18,7 @@ get_header(); ?>
 				</div>
 			</section>
 			
-			<img class="dwd-weddingparty" src="http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/weddingparty.jpg">
+			<img class="dwd-weddingparty" src="http://www.dreamyweddingcompany.com/wp-content/uploads/2016/05/weddingparty.jpg">
 			
 			<div>
 			    <ul id="dwd-services">

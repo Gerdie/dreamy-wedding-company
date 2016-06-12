@@ -2134,29 +2134,28 @@ input[type=button]:first-child {
   color: #e2bf47 !important;
 }
 
-/* line 162, ../scss/includes/_forms.scss */
+/*
 #ninja_forms_field_22_div_wrap {
-  background: none;
-}
-
-/* line 166, ../scss/includes/_forms.scss */
-#ninja_forms_field_19_div_wrap {
+	background:none;
+} */
+/* line 167, ../scss/includes/_forms.scss */
+#ninja_forms_field_10_div_wrap {
   margin-bottom: 0px;
 }
 
-/* line 170, ../scss/includes/_forms.scss */
-#ninja_forms_field_3_label {
+/* line 171, ../scss/includes/_forms.scss */
+#ninja_forms_field_17_label {
   font-family: 'Parisienne', cursive;
   font-size: 22px;
 }
 
-/* line 175, ../scss/includes/_forms.scss */
-#ninja_forms_field_24_label {
+/* line 176, ../scss/includes/_forms.scss */
+#ninja_forms_field_13_label {
   padding-bottom: 5px;
 }
 
-/* line 179, ../scss/includes/_forms.scss */
-#ninja_forms_field_5 {
+/* line 180, ../scss/includes/_forms.scss */
+#ninja_forms_field_4 {
   font-family: "Slabo 27px", serif;
   background-color: #e2bf47;
   letter-spacing: 1px;
@@ -2166,26 +2165,26 @@ input[type=button]:first-child {
   text-align: center;
   display: block;
 }
-/* line 189, ../scss/includes/_forms.scss */
-#ninja_forms_field_5:hover {
+/* line 190, ../scss/includes/_forms.scss */
+#ninja_forms_field_4:hover {
   background-color: #f47503;
 }
 
-/* line 200, ../scss/includes/_forms.scss */
+/* line 201, ../scss/includes/_forms.scss */
 #ninja_forms_field_1,
 #ninja_forms_field_2,
-#ninja_forms_field_13,
-#ninja_forms_field_21,
-#ninja_forms_field_26,
-#ninja_forms_field_27,
-#ninja_forms_field_28 {
+#ninja_forms_field_5,
+#ninja_forms_field_12,
+#ninja_forms_field_14,
+#ninja_forms_field_15,
+#ninja_forms_field_16 {
   background-color: #e5e5e7;
 }
 
 /************************
  * SearchForm Styles
  ************************/
-/* line 210, ../scss/includes/_forms.scss */
+/* line 211, ../scss/includes/_forms.scss */
 #searchform label {
   display: none;
   /* Style to show label in line with text field
@@ -2195,7 +2194,7 @@ input[type=button]:first-child {
   text-transform: uppercase;
   width: 20%;
 }
-/* line 221, ../scss/includes/_forms.scss */
+/* line 222, ../scss/includes/_forms.scss */
 #searchform #s {
   outline: none;
   background: #FFF;
@@ -2218,17 +2217,17 @@ input[type=button]:first-child {
   width: 75%;
   padding: 2px 1%;
 }
-/* line 232, ../scss/includes/_forms.scss */
+/* line 233, ../scss/includes/_forms.scss */
 #searchform #s:focus {
   border: 1px solid #AAA;
 }
-/* line 239, ../scss/includes/_forms.scss */
+/* line 240, ../scss/includes/_forms.scss */
 #searchform #searchsubmit {
   padding: 7px 15px;
 }
 
 /*Search Styles on 404 page*/
-/* line 247, ../scss/includes/_forms.scss */
+/* line 248, ../scss/includes/_forms.scss */
 .error404 #searchform label {
   font-weight: bold;
 }
@@ -2237,7 +2236,7 @@ input[type=button]:first-child {
  * Password Form Styles
  ************************/
 @media only screen and (min-width: 768px) {
-  /* line 266, ../scss/includes/_forms.scss */
+  /* line 267, ../scss/includes/_forms.scss */
   input[type=button],
   input[type=submit] {
     width: auto;
@@ -5595,7 +5594,7 @@ FOOTER STYLES
 
 /* line 562, ../scss/responsive-styles/_xs.scss */
 #social li a img {
-  width: 1.2em;
+  width: 22px;
   float: bottom;
 }
 
@@ -5818,7 +5817,7 @@ Here you can begin to add more resource-intensive styles.
   }
 
   /* line 128, ../scss/responsive-styles/_sm.scss */
-  #ninja_forms_field_5 {
+  #ninja_forms_field_4 {
     margin: auto;
   }
 }
@@ -5917,7 +5916,7 @@ DESKTOP
   }
 
   /* line 82, ../scss/responsive-styles/_md.scss */
-  #ninja_forms_field_29_div_wrap {
+  #ninja_forms_field_11_div_wrap {
     margin-top: 5px;
   }
 }

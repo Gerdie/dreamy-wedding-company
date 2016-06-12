@@ -52,20 +52,22 @@ Description: Page template with Services menu
 
 			<?php endif; ?>
 			
+			<!--<div class="dwd-button"><a href="/contact">CONTACT US</a></div><br />-->
+			
 			<div>
 			    <ul id="dwd-services">
-			        <li><a href="http://localhost:8888/dreamy-wedding-company/bouquets/">Bouquets</a></li>
+			        <li><a href="/bouquets">Bouquets</a></li>
 			        <li class="hide-sm">&bull;</li>
-			        <li><a href="http://localhost:8888/dreamy-wedding-company/boutonnieres/">Boutonnieres</a></li>
+			        <li><a href="/boutonnieres">Boutonnieres</a></li>
 			        <li class="hide-sm">&bull;</li>
-			        <li><a href="http://localhost:8888/dreamy-wedding-company/ceremony/">Ceremony</a></li>
+			        <li><a href="/ceremony">Ceremony</a></li>
 			        <li class="hide-sm">&bull;</li>
-			        <li><a href="http://localhost:8888/dreamy-wedding-company/reception/">Reception</a></li>
+			        <li><a href="/reception">Reception</a></li>
 			        <li class="hide-sm">&bull;</li>
-			        <li><a href="http://localhost:8888/dreamy-wedding-company/more/">More!</a></li>
+			        <li><a href="/more">More!</a></li>
 			    </ul>
 			</div>
-
+						
             <?php 
             
             if(get_field('quote'))
@@ -73,7 +75,7 @@ Description: Page template with Services menu
                 echo '<hr>';
                 echo '<div class="row">';
                 echo '<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">';
-                echo '<div class="dwd-quote">' . get_field('quote') . '</div>';
+                echo '<div class="dwd-quote">' . '<i class="fa fa-quote-left fa-2x" aria-hidden="true" style="color:#e2bf47"></i>' . '&nbsp;&nbsp;' . get_field('quote') . '&nbsp;' . '<i class="fa fa-quote-right" aria-hidden="true" style="color:#e2bf47"></i>' . '</div>';
                 if (get_field('speaker'))
                 {
                     echo '<p class="dwd-speaker">' . get_field('speaker') . '</p>';
@@ -85,5 +87,7 @@ Description: Page template with Services menu
             }
             
             ?>
-
+            
+            <!--<div class="dwd-button"><a href="/contact">CONTACT US</a></div>-->
+            
 <?php get_footer();

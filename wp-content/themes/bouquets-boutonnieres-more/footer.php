@@ -28,7 +28,7 @@
 		<div id="inner-footer" class="wrap clearfix">
 		
 		<hr>
-		
+				
 		<div id="footer-contact">
 		    <p>dreamyweddingco@gmail.com<br />
 		    703-859-6083</p>
@@ -39,11 +39,11 @@
 			</nav> -->
 
 			<ul id="social">
-			    <li><a href="https://www.weddingwire.com/biz/dreamy-wedding-company-l-l-c-dumfries/bf40003a97a3e55e.html"><img src="http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/weddingwire-60.jpg"></a></li>
-			    <li><a href="http://www.facebook.com/Dreamy-Wedding-Decor-269348699755081/"><i class="fa fa-facebook fa-fw"></i></a></li>
-			    <li><a href="http://pin.it/50c_4pS"><i class="fa fa-pinterest fa-fw"></i></a></li>
-			    <li><a href="tel://1-703-859-6083"><i class="fa fa-phone fa-fw"></i></a></li>
-			    <li><a href="mailto:dreamyweddingco@gmail.com"><i class="fa fa-envelope-o fa-fw"></i></a></li>
+			    <li><a href="https://www.weddingwire.com/biz/dreamy-wedding-company-l-l-c-dumfries/bf40003a97a3e55e.html"><img src="http://www.dreamyweddingcompany.com/wp-content/uploads/2016/05/weddingwire-60.jpg"></a></li>
+			    <li><a href="http://www.facebook.com/Dreamy-Wedding-Decor-269348699755081/"><i class="fa fa-facebook fa-fw fa-lg"></i></a></li>
+			    <li><a href="http://pin.it/50c_4pS"><i class="fa fa-pinterest fa-fw fa-lg"></i></a></li>
+			    <li><a href="tel://1-703-859-6083"><i class="fa fa-phone fa-fw fa-lg"></i></a></li>
+			    <li><a href="mailto:dreamyweddingco@gmail.com"><i class="fa fa-envelope-o fa-fw fa-lg"></i></a></li>
 			</ul>
 			<!--<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p> -->
 

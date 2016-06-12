@@ -53,7 +53,7 @@
 				<!--<div id="logo" class="h1"><a href="<?php  echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></div> -->
 
 				<div id="logo">
-				<img src="http://localhost:8888/dreamy-wedding-company/wp-content/uploads/2016/03/png-1.png">
+				<img src="http://www.dreamyweddingcompany.com/wp-content/uploads/2016/05/png.png">
 				</div>
 				
 				<?php // if you'd like to use the site description you can un-comment it below

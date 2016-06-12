@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:6DD97FCD-7097-4063-8AAF-0EE92F451A2F</id>
+ <title>Page list Atom feed</title>
+ <updated>2012-10-18T12:37:59-04:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:A1A491E7-ABBB-4746-9009-0513A61F9868</id>
+  <title>Welcome</title>
+  <title xmlns="urn:iweb:">Welcome</title>
+  <in-navbar xmlns="urn:iweb:">A1A491E7-ABBB-4746-9009-0513A61F9868</in-navbar>
+  <link rel="alternate" href="Welcome.html"/>
+  <updated>2012-10-18T12:37:59.001-04:00</updated>
+  <content>Welcome</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:48FDDA2D-B179-4511-8931-B034F1B81B26</id>
+  <title>About Us</title>
+  <title xmlns="urn:iweb:">About Us</title>
+  <in-navbar xmlns="urn:iweb:">48FDDA2D-B179-4511-8931-B034F1B81B26</in-navbar>
+  <link rel="alternate" href="About_Us.html"/>
+  <updated>2012-10-18T12:37:59.002-04:00</updated>
+  <content>About Us</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:0333DCDA-FB68-4E1E-8D94-6AF131C919E6</id>
+  <title>Services</title>
+  <title xmlns="urn:iweb:">Services</title>
+  <in-navbar xmlns="urn:iweb:">0333DCDA-FB68-4E1E-8D94-6AF131C919E6</in-navbar>
+  <link rel="alternate" href="Services.html"/>
+  <updated>2012-10-18T12:37:59.003-04:00</updated>
+  <content>Services</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:A38885C4-9103-467D-8677-31FC5C574E87</id>
+  <title>Our Portfolio</title>
+  <title xmlns="urn:iweb:">Our Portfolio</title>
+  <in-navbar xmlns="urn:iweb:">A38885C4-9103-467D-8677-31FC5C574E87</in-navbar>
+  <link rel="alternate" href="Our_Portfolio/Our_Portfolio.html"/>
+  <updated>2012-10-18T12:37:59.004-04:00</updated>
+  <content>Our Portfolio</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:6D7545EB-7EDA-4D13-9EE5-74D8807F34BF</id>
+  <title>Gift Ideas</title>
+  <title xmlns="urn:iweb:">Gift Ideas</title>
+  <in-navbar xmlns="urn:iweb:">6D7545EB-7EDA-4D13-9EE5-74D8807F34BF</in-navbar>
+  <link rel="alternate" href="Gift_Ideas.html"/>
+  <updated>2012-10-18T12:37:59.005-04:00</updated>
+  <content>Gift Ideas</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:21C06A9D-7E00-4FEF-AE3F-C5072D7112DC</id>
+  <title>Testimonials</title>
+  <title xmlns="urn:iweb:">Testimonials</title>
+  <in-navbar xmlns="urn:iweb:">21C06A9D-7E00-4FEF-AE3F-C5072D7112DC</in-navbar>
+  <link rel="alternate" href="Testimonials.html"/>
+  <updated>2012-10-18T12:37:59.006-04:00</updated>
+  <content>Testimonials</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:2D3BF3DD-AB59-45DD-8AF3-3D7EF794E045</id>
+  <title>Contact Us</title>
+  <title xmlns="urn:iweb:">Contact Us</title>
+  <in-navbar xmlns="urn:iweb:">2D3BF3DD-AB59-45DD-8AF3-3D7EF794E045</in-navbar>
+  <link rel="alternate" href="Contact_Us.html"/>
+  <updated>2012-10-18T12:37:59.007-04:00</updated>
+  <content>Contact Us</content>
+ </entry>
+</feed>
