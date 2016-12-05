@@ -22,4 +22,4 @@ This responsive WordPress theme was built with scaffolding.io and bootstrap, and
 
 The custom WordPress theme for Dreamy Wedding Decor (formerly Dreamy Wedding Company) was developed by Maria Moy in her capacity as a Web Developer at Big Little M. Find her on [LinkedIn]
 (http://www.linkedin.com/in/maria-k-moy) or [GitHub]
-(http://www.github.com/gerdie). Maria is a software engineering fellow and freelance WordPress developer living in San Francisco.
+(http://www.github.com/gerdie). Maria is a software engineer and freelance WordPress developer living in San Francisco.
