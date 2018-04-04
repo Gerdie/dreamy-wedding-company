@@ -1,7 +1,6 @@
 # Dreamy Wedding Decor WordPress theme
 
-A custom WordPress theme for [www.dreamyweddingcompany.com]
-(http://www.dreamyweddingcompany.com) developed by Maria Moy under the banner of Big Little M.
+A custom WordPress theme for [www.dreamyweddingcompany.com](http://www.dreamyweddingcompany.com) developed by Maria Moy under the banner of Big Little M.
 
 ## Contents
 - Tech Stack
